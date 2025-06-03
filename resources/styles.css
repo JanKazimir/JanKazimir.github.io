@@ -1,0 +1,36 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #333;
+    color: #222;
+}
+
+
+#logoDesktop {
+    max-width: 5rem;
+}
+
+header {
+    background: #333;
+    color: #ff9cd1;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #333;
+    color: whitesmoke
+    ;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}

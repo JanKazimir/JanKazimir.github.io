@@ -1,2 +1,2 @@
 # JanKazimir.github.io
-My page
+My home page. WIP
