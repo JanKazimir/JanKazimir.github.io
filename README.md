@@ -1,4 +1,6 @@
 # JanKazimir.github.io
-My home page. 
+My home page. : 
+
+https://jankazimir.github.io/
 
 WIP

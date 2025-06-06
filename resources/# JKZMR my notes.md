@@ -8,8 +8,7 @@ Maybe a simple transition. the links font is big and vertical stack when up high
 
 - the title of the site text should allign with the beginning of the welcome and of the rest.
 
-- why are my blog posts not going further right?
-
+- why is the box of my blog posts not going further right?
 
 
 
