@@ -1,5 +1,21 @@
 # JKZMR notes
 
+### Changes i want.
+
+- Something is off with the navlinks; they should be centered in their box, and i don't know what to do with them. keep them as is for now i say.
+Maybe a simple transition. the links font is big and vertical stack when up high, and become smaller and horizontal stacked later
+
+
+- the title of the site text should allign with the beginning of the welcome and of the rest.
+
+- why are my blog posts not going further right?
+
+
+
+
+- what the fuck is up with the context?
+
+
 
 ### Structure of the HTML
 

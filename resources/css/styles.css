@@ -49,8 +49,10 @@ h2, h3, h4, h5, h6 {
 
 #navigationMenu {
     z-index: 5;
-    display: flexbox;
+    display: flex;
     position: fixed;
+    align-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: #e7cfbc;
     /* height: 3rem; */
@@ -60,8 +62,11 @@ h2, h3, h4, h5, h6 {
 }
 #navigationMenu a {
   font-family: "Federo", sans-serif;
-  display: flexbox;
-  /* margin-top: 0; */
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  /* font-size: smaller; */
+  margin-top: 0;
 }
 
 
@@ -134,6 +139,7 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 2rem; /* Adjust spacing as needed */
+    font-size: small;
 
 }
 
