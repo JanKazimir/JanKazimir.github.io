@@ -127,3 +127,16 @@ main {
  padding: 0 1rem;
 }
 
+footer {
+    /* display: inline-flex; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem; /* Adjust spacing as needed */
+
+}
+
+/* footer .img {
+    height: auto;
+} */
