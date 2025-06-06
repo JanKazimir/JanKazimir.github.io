@@ -12,6 +12,31 @@ main: the main
 
 footer: 
 
+### folder structure
+
+website/
+├── index.html       (Landing page)
+├── projects/
+│   ├── index.html   (Projects overview page)
+│   ├── project1.html (Individual project page 1)
+│   ├── project2.html (Individual project page 2)
+│   └── ...
+├── blog/
+│   ├── index.html   (Blog index/listing page)
+│   ├── post1.html    (Individual blog post 1)
+│   ├── post2.html    (Individual blog post 2)
+│   └── ...
+├── css/
+│   ├── style.css    (Main stylesheet)
+│   └── ...          (Optional: other CSS files for specific sections)
+├── js/
+│   ├── script.js    (Main JavaScript file)
+│   └── ...          (Optional: other JS files)
+├── images/
+│   ├── logo.png
+│   ├── ...          (Other images)
+└── ...              (Other assets like fonts, videos, etc.)
+
 
 ### fonts
 Main title font : amarante
