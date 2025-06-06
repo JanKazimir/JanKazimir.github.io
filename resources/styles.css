@@ -3,7 +3,9 @@
     background-color: #3e3e5e;
 }
 
-body {
+html, body {
+    box-sizing: border-box;
+    font-family: sans-serif;
     font-family: "Cousine", monospace;
     margin: 0;
     padding: 0;
@@ -13,15 +15,27 @@ body {
 
 
 header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 10rem;
+    flex-direction: column;
     background: #333;
     color: #e7cfbc;
-    padding: 1rem;
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
     text-align: center;
     font-family: "Federo", sans-serif;
 }
 
 h1 {
     font-family: "Amarante", serif;
+    margin-bottom: 1rem;
+}
+
+#tagline {
+    margin-top: 0;
 }
 
 h2, h3, h4, h5, h6 {
@@ -34,28 +48,58 @@ h2, h3, h4, h5, h6 {
 
 
 #navigationMenu {
+    z-index: 5;
+    display: flexbox;
+    position: fixed;
+    flex-direction: column;
     background-color: #e7cfbc;
+    /* height: 3rem; */
     max-width: 10rem;
     min-width: 5rem;
     /* font-family: font-family: "Faculty Glyphic", sans-serif; */
 }
 #navigationMenu a {
   font-family: "Federo", sans-serif;
-}
-
-#contextBar{
-    background-color: rgb(35, 62, 53);
+  display: flexbox;
+  /* margin-top: 0; */
 }
 
 
 #logoDesktop {
+    display: flex;
     max-width: 10rem;
     min-width: 5rem;
     height: auto;
 }
 
+#contextBar{
+    display: flex;
+    position: fixed;
+    /* z-index: 2; */
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: rgb(35, 62, 53);
+    right: 0;           /* Aligns to the right edge */
+    top: 0;             /* Aligns to the top */
+    width: 5rem;       /* Set your desired width */
+    height: 100vh;      /* Optional: full viewport height */
+    padding: 1rem;      /* Optional: add some padding */
+}
+
+
+
+
 #welcomeSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-right: 7.25rem;
+    padding: 2rem;
     background-color: #2e2e2e;
+    border-radius: 8px;
+    /* margin-right: 5rem; */
+
 }
 
 
@@ -63,9 +107,23 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     background: #333;
-    color: whitesmoke
-    ;
+    /* color: whitesmoke; */
+    margin-left: 10rem;
+    margin-right: 7.25rem;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
+
+#nextPageLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    margin: 10rem;
+}
+
+#nextPageLinks a {
+ padding: 0 1rem;
+}
+
