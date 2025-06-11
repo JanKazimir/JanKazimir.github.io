@@ -15,6 +15,30 @@
         <description>&lt;p&gt;ut sunt fugiat aliqua ex minim ipsum et duis esse dolore eiusmod aliquip officia nulla sit quis aute irure officia consectetur esse ea amet ex aliquip irure id veniam officia minim enim ullamco eu sunt commodo consequat veniam excepteur mollit ea ex minim occaecat veniam sunt officia fugiat ut ex eiusmod Lorem laboris reprehenderit do ex Lorem fugiat est pariatur tempor velit reprehenderit occaecat exercitation magna fugiat minim nisi exercitation non consectetur eu et fugiat eiusmod amet elit labore amet ullamco occaecat sint labore cillum sint esse ullamco pariatur eu velit ipsum exercitation labore sunt cillum enim eu laboris irure&lt;/p&gt;
 </description>
         </item>
+        <item>
+        <title>{{ replace .File.ContentBaseName &#34;-&#34; &#34; &#34; | title }}</title>
+        <link>http://localhost:1313/posts/test2/testt2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/test2/testt2/</guid>
+        <description>&lt;h1 id=&#34;heading-1&#34;&gt;heading 1
+&lt;/h1&gt;&lt;p&gt;lets test some stuff then&lt;/p&gt;
+&lt;p&gt;we&amp;rsquo;ll see&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>testtt1</title>
+        <link>http://localhost:1313/posts/test1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/test1/</guid>
+        <description>&lt;h2 id=&#34;heading-2&#34;&gt;heading 2
+&lt;/h2&gt;&lt;p&gt;some text under h2&lt;/p&gt;
+&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3
+&lt;/h3&gt;&lt;p&gt;Some text.
+excepteur aliqua pariatur ea incididunt esse laboris elit occaecat veniam cillum ut sint ad veniam consectetur labore Lorem voluptate minim elit anim ea proident elit qui aliqua exercitation incididunt fugiat non sit Lorem id pariatur ea excepteur laboris officia pariatur non nisi incididunt pariatur occaecat consectetur officia ut Lorem incididunt sit irure duis sit amet sunt duis consectetur reprehenderit ipsum ullamco et incididunt laborum ut dolor velit amet adipisicing irure aute et ex enim commodo proident exercitation magna aliqua tempor ex enim anim nulla elit eu labore nulla ad consectetur dolore mollit cupidatat incididunt ad voluptate duis excepteur nisi quis&lt;/p&gt;
+</description>
+        </item>
         
     </channel>
 </rss>

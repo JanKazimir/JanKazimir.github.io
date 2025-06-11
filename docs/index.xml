@@ -6,13 +6,33 @@
         <description>Recent content on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 11 Jun 2025 14:55:24 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 11 Jun 2025 21:02:18 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>from arch</title>
+        <link>http://localhost:1313/post/blogpostarchetypetest/slkjdfasjkdfh/</link>
+        <pubDate>Wed, 11 Jun 2025 21:02:18 +0200</pubDate>
+        
+        <guid>http://localhost:1313/post/blogpostarchetypetest/slkjdfasjkdfh/</guid>
+        <description>&lt;h2 id=&#34;created-from-archetype&#34;&gt;Created from archetype
+&lt;/h2&gt;&lt;p&gt;let&amp;rsquo;s see if it works&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Tettet</title>
+        <link>http://localhost:1313/post/tettet/</link>
+        <pubDate>Wed, 11 Jun 2025 21:00:11 +0200</pubDate>
+        
+        <guid>http://localhost:1313/post/tettet/</guid>
+        <description>&lt;p&gt;just having alooksy&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>My First Post</title>
         <link>http://localhost:1313/post/my-first-post/</link>
         <pubDate>Wed, 11 Jun 2025 14:55:24 +0200</pubDate>
         
         <guid>http://localhost:1313/post/my-first-post/</guid>
         <description>&lt;p&gt;ut sunt fugiat aliqua ex minim ipsum et duis esse dolore eiusmod aliquip officia nulla sit quis aute irure officia consectetur esse ea amet ex aliquip irure id veniam officia minim enim ullamco eu sunt commodo consequat veniam excepteur mollit ea ex minim occaecat veniam sunt officia fugiat ut ex eiusmod Lorem laboris reprehenderit do ex Lorem fugiat est pariatur tempor velit reprehenderit occaecat exercitation magna fugiat minim nisi exercitation non consectetur eu et fugiat eiusmod amet elit labore amet ullamco occaecat sint labore cillum sint esse ullamco pariatur eu velit ipsum exercitation labore sunt cillum enim eu laboris irure&lt;/p&gt;
+&lt;p&gt;testing some more.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -25,12 +45,18 @@
 </description>
         </item>
         <item>
-        <title>My second Post</title>
-        <link>http://localhost:1313/post/my-second-post/</link>
+        <title>My third Post</title>
+        <link>http://localhost:1313/post/my-third-post/</link>
         <pubDate>Wed, 11 Jun 2025 14:55:24 +0200</pubDate>
         
-        <guid>http://localhost:1313/post/my-second-post/</guid>
-        <description>&lt;p&gt;ut sunt fugiat aliqua ex minim ipsum et duis esse dolore eiusmod aliquip officia nulla sit quis aute irure officia consectetur esse ea amet ex aliquip irure id veniam officia minim enim ullamco eu sunt commodo consequat veniam excepteur mollit ea ex minim occaecat veniam sunt officia fugiat ut ex eiusmod Lorem laboris reprehenderit do ex Lorem fugiat est pariatur tempor velit reprehenderit occaecat exercitation magna fugiat minim nisi exercitation non consectetur eu et fugiat eiusmod amet elit labore amet ullamco occaecat sint labore cillum sint esse ullamco pariatur eu velit ipsum exercitation labore sunt cillum enim eu laboris irure&lt;/p&gt;
+        <guid>http://localhost:1313/post/my-third-post/</guid>
+        <description>&lt;h2 id=&#34;third-post&#34;&gt;Third post
+&lt;/h2&gt;&lt;p&gt;ut sunt fugiat aliqua ex minim ipsum et duis esse dolore eiusmod aliquip officia nulla sit quis aute irure officia consectetur esse ea amet ex aliquip irure id veniam officia minim enim ullamco eu sunt commodo consequat veniam excepteur mollit ea ex minim occaecat veniam sunt officia fugiat ut ex eiusmod Lorem laboris reprehenderit do ex Lorem fugiat est pariatur tempor velit reprehenderit occaecat exercitation magna fugiat minim nisi exercitation non consectetur eu et fugiat eiusmod amet elit labore amet ullamco occaecat sint labore cillum sint esse ullamco pariatur eu velit ipsum exercitation labore sunt cillum enim eu laboris irure&lt;/p&gt;
+&lt;p&gt;toc = true  but it&amp;rsquo;s not showing&lt;/p&gt;
+&lt;p&gt;tag = &amp;rsquo;tag1&amp;rsquo; but i don&amp;rsquo;t see them&lt;/p&gt;
+&lt;p&gt;description = &amp;lsquo;description present&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;keywords = [one, two] breaks things&lt;/p&gt;
+&lt;p&gt;readingTime = true (is default)&lt;/p&gt;
 </description>
         </item>
         <item>

@@ -1,5 +1,4 @@
 +++
-date = '{{ .Date }}'
 draft = true
 title = 'testtt1'
 +++
