@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Jkzmr'
+theme = "hugo-theme-stack-3.30.0"
