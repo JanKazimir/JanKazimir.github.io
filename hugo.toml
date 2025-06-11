@@ -1,4 +1,5 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://jankazimir.github.io/'
 languageCode = 'en-us'
 title = 'Jkzmr'
 theme = "hugo-theme-stack-3.30.0"
+publishDir = "docs"
