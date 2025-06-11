@@ -1,0 +1,11 @@
++++
+comments = false
+toc = true
+date = '{{ .Date }}'
+draft = true
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+description = ''
+image = ''
+keywords = []
+readingTime = true
++++
