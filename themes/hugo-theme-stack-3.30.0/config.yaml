@@ -3,16 +3,68 @@ module:
         extended: true
         min: "0.87.0"
 
+menu:
+    main: 
+        - identifier: home
+          name: Home
+          url: /
+          weight: 1
+          params:
+            icon: home
+            newTab: false
+
+        - identifier: Blog
+          name: Blog
+          url: /
+          weight: 2
+          params:
+            icon: article
+            newTab: false
+
+        - identifier: projects
+          name: Projects
+          url: /
+          weight: 3
+          params:
+            icon: code
+            newTab: false
+
+        - identifier: about
+          name: About
+          url: /
+          weight: 5
+          params:
+            icon: user
+            newTab: false
+
+
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/JanKazimir
+          weight: 1
+          params:
+              icon: brand-github
+
+        - identifier: bluesky
+          name: Bluesky
+          url: https://bsky.app/profile/jkzmr.bsky.social
+          weight: 2
+          params:
+              icon: brand-bluesky
+
+
+
 params:
     mainSections:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: /Users/jkzmr/_MEDIA/code/Projects/WEB/Jkzmr/assets/img/favicon.ico
 
     footer:
         since:
-        customText:
+        customText: 
 
     dateFormat:
         published: Jan 02, 2006
@@ -21,11 +73,11 @@ params:
     sidebar:
         compact: false
         emoji:
-        subtitle:
+        subtitle: A developping Website
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/logo.png
 
     article:
         headingAnchor: false
@@ -118,8 +170,19 @@ params:
             id:
 
     widgets:
-        homepage: []
-        page: []
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
 
     opengraph:
         twitter:

@@ -6,7 +6,20 @@
         <description>Recent content on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 12 Jun 2025 11:15:56 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 12 Jun 2025 11:34:56 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Toc Test</title>
+        <link>http://localhost:1313/post/toc-test/</link>
+        <pubDate>Thu, 12 Jun 2025 11:34:56 +0200</pubDate>
+        
+        <guid>http://localhost:1313/post/toc-test/</guid>
+        <description>&lt;h2 id=&#34;the-idead-is-to-test-the-toc-featur&#34;&gt;the idead is to test the toc featur
+&lt;/h2&gt;&lt;h3 id=&#34;lets-have-some-headings&#34;&gt;let&amp;rsquo;s have some headings
+&lt;/h3&gt;&lt;p&gt;with a bit of text here&lt;/p&gt;
+&lt;h3 id=&#34;some-other-heading&#34;&gt;some other heading
+&lt;/h3&gt;&lt;p&gt;sit officia incididunt excepteur ea do culpa commodo ipsum et non sint ex nisi consequat irure id sunt consequat nulla velit Lorem laboris ipsum Lorem ad ipsum irure laborum ipsum sint exercitation eiusmod aliquip culpa quis laborum commodo sit reprehenderit culpa amet do labore laborum anim aliquip incididunt magna officia est et magna laborum non amet fugiat anim elit non fugiat duis aliqua duis laborum et cupidatat est aute cupidatat laboris sit cillum Lorem aute ad Lorem sint reprehenderit qui qui magna adipisicing culpa commodo qui labore incididunt et cillum deserunt amet culpa in tempor elit aliqua adipisicing ex anim&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Last Test</title>
         <link>http://localhost:1313/post/last-test/</link>
         <pubDate>Thu, 12 Jun 2025 11:15:56 +0200</pubDate>
