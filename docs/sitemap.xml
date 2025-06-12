@@ -23,6 +23,15 @@
     <loc>http://localhost:1313/post/toc-test/</loc>
     <lastmod>2025-06-12T11:34:56+02:00</lastmod>
   </url><url>
+    <loc>https://jankazimir.github.io/pages/about/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/pages/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/posts/</loc>
+    <lastmod>2025-06-11T21:02:18+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2025-06-12T11:15:56+02:00</lastmod>
   </url><url>
@@ -41,6 +50,12 @@
     <loc>http://localhost:1313/tags/themes/</loc>
     <lastmod>2025-06-12T11:15:56+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/pages/about/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/blogpostarchetypetest/slkjdfasjkdfh/</loc>
     <lastmod>2025-06-11T21:02:18+02:00</lastmod>
   </url><url>
@@ -50,7 +65,15 @@
     <loc>http://localhost:1313/post/my-third-post/</loc>
     <lastmod>2025-06-11T14:55:24+02:00</lastmod>
   </url><url>
+    <loc>https://jankazimir.github.io/pages/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/test2/testt2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/pages/search/</loc>
   </url><url>
     <loc>http://localhost:1313/post/test1/</loc>
   </url>

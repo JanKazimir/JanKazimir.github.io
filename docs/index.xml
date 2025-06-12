@@ -29,6 +29,75 @@
 </description>
         </item>
         <item>
+        <title>About</title>
+        <link>http://localhost:1313/pages/about/</link>
+        <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/pages/about/</guid>
+        <description>&lt;p&gt;I began programming in 2025 with web development.
+You can find some of my projects tk change link to projects page, and on my &lt;a class=&#34;link&#34; href=&#34;https://github.com/JanKazimir&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt; profile.&lt;/p&gt;
+&lt;p&gt;Here are some web-oriented certificates on my &lt;a class=&#34;link&#34; href=&#34;https://www.codecademy.com/profiles/JanKazimirowski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Codecademy profile&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.41.png&#34;
+	width=&#34;727&#34;
+	height=&#34;576&#34;
+	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.41_hu_5d21f3a3d764eae4.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.41_hu_68bf917337dd7951.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Javascript&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;302px&#34;
+	
+&gt; &lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.30.png&#34;
+	width=&#34;727&#34;
+	height=&#34;576&#34;
+	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.30_hu_b0e43c23d37258f0.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.30_hu_2e19b1e1414e69d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Build a Website&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;302px&#34;
+	
+&gt; &lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.22.png&#34;
+	width=&#34;727&#34;
+	height=&#34;576&#34;
+	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.22_hu_9bdafa1d35f4e892.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.22_hu_c97432b3f011b803.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Semantic Html&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;302px&#34;
+	
+&gt; &lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.09.png&#34;
+	width=&#34;727&#34;
+	height=&#34;576&#34;
+	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.09_hu_4f3dccece5014684.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.09_hu_e8b00d2dcd8cac15.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Html&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;302px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;I am learning about Data Science, Deep learning models, and AI in general.&lt;/p&gt;
+&lt;p&gt;My resume is here : link to pdf of resume&lt;/p&gt;
+&lt;p&gt;This website is built with Hugo, which I&amp;rsquo;ve written about here tk link to blog post&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>from arch</title>
         <link>http://localhost:1313/post/blogpostarchetypetest/slkjdfasjkdfh/</link>
         <pubDate>Wed, 11 Jun 2025 21:02:18 +0200</pubDate>
@@ -71,6 +140,14 @@
 </description>
         </item>
         <item>
+        <title>Blog</title>
+        <link>http://localhost:1313/pages/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/pages/archives/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>{{ replace .File.ContentBaseName &#34;-&#34; &#34; &#34; | title }}</title>
         <link>http://localhost:1313/post/test2/testt2/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -80,6 +157,14 @@
 &lt;/h1&gt;&lt;p&gt;lets test some stuff then&lt;/p&gt;
 &lt;p&gt;we&amp;rsquo;ll see&lt;/p&gt;
 </description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>http://localhost:1313/pages/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/pages/search/</guid>
+        <description></description>
         </item>
         <item>
         <title>testtt1</title>
@@ -93,6 +178,14 @@
 &lt;/h3&gt;&lt;p&gt;Some text.
 excepteur aliqua pariatur ea incididunt esse laboris elit occaecat veniam cillum ut sint ad veniam consectetur labore Lorem voluptate minim elit anim ea proident elit qui aliqua exercitation incididunt fugiat non sit Lorem id pariatur ea excepteur laboris officia pariatur non nisi incididunt pariatur occaecat consectetur officia ut Lorem incididunt sit irure duis sit amet sunt duis consectetur reprehenderit ipsum ullamco et incididunt laborum ut dolor velit amet adipisicing irure aute et ex enim commodo proident exercitation magna aliqua tempor ex enim anim nulla elit eu labore nulla ad consectetur dolore mollit cupidatat incididunt ad voluptate duis excepteur nisi quis&lt;/p&gt;
 </description>
+        </item>
+        <item>
+        <title>Blog</title>
+        <link>https://jankazimir.github.io/pages/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://jankazimir.github.io/pages/archives/</guid>
+        <description></description>
         </item>
         
     </channel>

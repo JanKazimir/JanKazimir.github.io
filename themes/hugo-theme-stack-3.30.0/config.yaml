@@ -5,22 +5,6 @@ module:
 
 menu:
     main: 
-        - identifier: home
-          name: Home
-          url: /
-          weight: 1
-          params:
-            icon: home
-            newTab: false
-
-        - identifier: Blog
-          name: Blog
-          url: /
-          weight: 2
-          params:
-            icon: article
-            newTab: false
-
         - identifier: projects
           name: Projects
           url: /
@@ -29,13 +13,6 @@ menu:
             icon: code
             newTab: false
 
-        - identifier: about
-          name: About
-          url: /
-          weight: 5
-          params:
-            icon: user
-            newTab: false
 
 
     social:
@@ -49,10 +26,16 @@ menu:
         - identifier: bluesky
           name: Bluesky
           url: https://bsky.app/profile/jkzmr.bsky.social
-          weight: 2
+          weight: 7
           params:
               icon: brand-bluesky
 
+        - identifier: LinkedIn
+          name: LinkedIn
+          url: https://linkedIn.com/
+          weight: 3
+          params:
+              icon: brand-linkedin
 
 
 params:
@@ -60,7 +43,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: /Users/jkzmr/_MEDIA/code/Projects/WEB/Jkzmr/assets/img/favicon.ico
+    favicon: /img/favicon.ico
 
     footer:
         since:
