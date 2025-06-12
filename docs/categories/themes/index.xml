@@ -32,6 +32,23 @@
 &lt;/h4&gt;&lt;p&gt;With some text at level 4, and i&amp;rsquo;d like a toc now please&lt;/p&gt;
 </description>
         </item>
+        <item>
+        <title>from arch</title>
+        <link>http://localhost:1313/posts/blogpostarchetypetest/slkjdfasjkdfh/</link>
+        <pubDate>Wed, 11 Jun 2025 21:02:18 +0200</pubDate>
+        
+        <guid>http://localhost:1313/posts/blogpostarchetypetest/slkjdfasjkdfh/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h2 id=&#34;created-from-archetype&#34;&gt;Created from archetype
+&lt;/h2&gt;&lt;p&gt;let&amp;rsquo;s see if it works&lt;/p&gt;
+&lt;h3 id=&#34;subtitles&#34;&gt;subtitles
+&lt;/h3&gt;&lt;p&gt;some text that exist now.&lt;/p&gt;
+&lt;h3 id=&#34;another-level-three&#34;&gt;another level three
+&lt;/h3&gt;&lt;p&gt;I want some content to here&lt;/p&gt;
+&lt;h4 id=&#34;a-level-4&#34;&gt;a level 4
+&lt;/h4&gt;&lt;p&gt;With some text at level 4, and i&amp;rsquo;d like a toc now please&lt;/p&gt;
+</description>
+        </item>
         
     </channel>
 </rss>

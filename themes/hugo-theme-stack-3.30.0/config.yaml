@@ -13,8 +13,6 @@ menu:
             icon: code
             newTab: false
 
-
-
     social:
         - identifier: github
           name: GitHub
