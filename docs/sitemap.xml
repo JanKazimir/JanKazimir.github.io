@@ -2,56 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://jankazimir.github.io/</loc>
     <lastmod>2025-06-12T11:34:56+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://jankazimir.github.io/post/</loc>
     <lastmod>2025-06-12T11:34:56+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
-    <lastmod>2025-06-12T11:34:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-06-12T11:34:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-06-12T11:34:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/test/</loc>
-    <lastmod>2025-06-12T11:34:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/toc-test/</loc>
-    <lastmod>2025-06-12T11:34:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
-    <lastmod>2025-06-12T11:15:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
-    <lastmod>2025-06-12T11:15:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/last-test/</loc>
-    <lastmod>2025-06-12T11:15:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/syntax/</loc>
-    <lastmod>2025-06-12T11:15:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/themes/</loc>
-    <lastmod>2025-06-12T11:15:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
-    <lastmod>2025-06-12T11:15:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/blogpostarchetypetest/slkjdfasjkdfh/</loc>
-    <lastmod>2025-06-11T21:02:18+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/my-first-post/</loc>
+    <loc>https://jankazimir.github.io/post/my-first-post/</loc>
     <lastmod>2025-06-11T14:55:24+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/my-third-post/</loc>
-    <lastmod>2025-06-11T14:55:24+02:00</lastmod>
+    <loc>https://jankazimir.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/post/test2/testt2/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/test1/</loc>
+    <loc>https://jankazimir.github.io/tags/</loc>
   </url>
 </urlset>

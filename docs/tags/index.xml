@@ -2,42 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Jkzmr</title>
-        <link>http://localhost:1313/tags/</link>
+        <link>https://jankazimir.github.io/tags/</link>
         <description>Recent content in Tags on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Thu, 12 Jun 2025 11:34:56 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Markdown</title>
-        <link>http://localhost:1313/tags/markdown/</link>
-        <pubDate>Thu, 12 Jun 2025 11:34:56 +0200</pubDate>
-        
-        <guid>http://localhost:1313/tags/markdown/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Css</title>
-        <link>http://localhost:1313/tags/css/</link>
-        <pubDate>Thu, 12 Jun 2025 11:15:56 +0200</pubDate>
-        
-        <guid>http://localhost:1313/tags/css/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Html</title>
-        <link>http://localhost:1313/tags/html/</link>
-        <pubDate>Thu, 12 Jun 2025 11:15:56 +0200</pubDate>
-        
-        <guid>http://localhost:1313/tags/html/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Themes</title>
-        <link>http://localhost:1313/tags/themes/</link>
-        <pubDate>Thu, 12 Jun 2025 11:15:56 +0200</pubDate>
-        
-        <guid>http://localhost:1313/tags/themes/</guid>
-        <description></description>
-        </item>
-        
+        <language>en-us</language><atom:link href="https://jankazimir.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
