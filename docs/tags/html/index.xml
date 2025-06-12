@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Html on Jkzmr</title>
+        <link>http://localhost:1313/tags/html/</link>
+        <description>Recent content in Html on Jkzmr</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 12 Jun 2025 11:15:56 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Last Test</title>
+        <link>http://localhost:1313/post/last-test/</link>
+        <pubDate>Thu, 12 Jun 2025 11:15:56 +0200</pubDate>
+        
+        <guid>http://localhost:1313/post/last-test/</guid>
+        <description>&lt;p&gt;Now let&amp;rsquo;s try this one&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>from arch</title>
+        <link>http://localhost:1313/post/blogpostarchetypetest/slkjdfasjkdfh/</link>
+        <pubDate>Wed, 11 Jun 2025 21:02:18 +0200</pubDate>
+        
+        <guid>http://localhost:1313/post/blogpostarchetypetest/slkjdfasjkdfh/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h2 id=&#34;created-from-archetype&#34;&gt;Created from archetype
+&lt;/h2&gt;&lt;p&gt;let&amp;rsquo;s see if it works&lt;/p&gt;
+&lt;h3 id=&#34;subtitles&#34;&gt;subtitles
+&lt;/h3&gt;&lt;p&gt;some text that exist now.&lt;/p&gt;
+&lt;h3 id=&#34;another-level-three&#34;&gt;another level three
+&lt;/h3&gt;&lt;p&gt;I want some content to here&lt;/p&gt;
+&lt;h4 id=&#34;a-level-4&#34;&gt;a level 4
+&lt;/h4&gt;&lt;p&gt;With some text at level 4, and i&amp;rsquo;d like a toc now please&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>from arch</title>
+        <link>http://localhost:1313/posts/blogpostarchetypetest/slkjdfasjkdfh/</link>
+        <pubDate>Wed, 11 Jun 2025 21:02:18 +0200</pubDate>
+        
+        <guid>http://localhost:1313/posts/blogpostarchetypetest/slkjdfasjkdfh/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h2 id=&#34;created-from-archetype&#34;&gt;Created from archetype
+&lt;/h2&gt;&lt;p&gt;let&amp;rsquo;s see if it works&lt;/p&gt;
+&lt;h3 id=&#34;subtitles&#34;&gt;subtitles
+&lt;/h3&gt;&lt;p&gt;some text that exist now.&lt;/p&gt;
+&lt;h3 id=&#34;another-level-three&#34;&gt;another level three
+&lt;/h3&gt;&lt;p&gt;I want some content to here&lt;/p&gt;
+&lt;h4 id=&#34;a-level-4&#34;&gt;a level 4
+&lt;/h4&gt;&lt;p&gt;With some text at level 4, and i&amp;rsquo;d like a toc now please&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
