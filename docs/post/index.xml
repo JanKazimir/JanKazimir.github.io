@@ -6,23 +6,30 @@
         <description>Recent content in Posts on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 11 Jun 2025 21:02:18 +0200</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 12 Jun 2025 11:15:56 +0200</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Last Test</title>
+        <link>http://localhost:1313/post/last-test/</link>
+        <pubDate>Thu, 12 Jun 2025 11:15:56 +0200</pubDate>
+        
+        <guid>http://localhost:1313/post/last-test/</guid>
+        <description>&lt;p&gt;Now let&amp;rsquo;s try this one&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>from arch</title>
         <link>http://localhost:1313/post/blogpostarchetypetest/slkjdfasjkdfh/</link>
         <pubDate>Wed, 11 Jun 2025 21:02:18 +0200</pubDate>
         
         <guid>http://localhost:1313/post/blogpostarchetypetest/slkjdfasjkdfh/</guid>
-        <description>&lt;h2 id=&#34;created-from-archetype&#34;&gt;Created from archetype
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h2 id=&#34;created-from-archetype&#34;&gt;Created from archetype
 &lt;/h2&gt;&lt;p&gt;let&amp;rsquo;s see if it works&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Tettet</title>
-        <link>http://localhost:1313/post/tettet/</link>
-        <pubDate>Wed, 11 Jun 2025 21:00:11 +0200</pubDate>
-        
-        <guid>http://localhost:1313/post/tettet/</guid>
-        <description>&lt;p&gt;just having alooksy&lt;/p&gt;
+&lt;h3 id=&#34;subtitles&#34;&gt;subtitles
+&lt;/h3&gt;&lt;p&gt;some text that exist now.&lt;/p&gt;
+&lt;h3 id=&#34;another-level-three&#34;&gt;another level three
+&lt;/h3&gt;&lt;p&gt;I want some content to here&lt;/p&gt;
+&lt;h4 id=&#34;a-level-4&#34;&gt;a level 4
+&lt;/h4&gt;&lt;p&gt;With some text at level 4, and i&amp;rsquo;d like a toc now please&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -48,6 +55,30 @@
 &lt;p&gt;description = &amp;lsquo;description present&amp;rsquo;&lt;/p&gt;
 &lt;p&gt;keywords = [one, two] breaks things&lt;/p&gt;
 &lt;p&gt;readingTime = true (is default)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>{{ replace .File.ContentBaseName &#34;-&#34; &#34; &#34; | title }}</title>
+        <link>http://localhost:1313/post/test2/testt2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/test2/testt2/</guid>
+        <description>&lt;h1 id=&#34;heading-1&#34;&gt;heading 1
+&lt;/h1&gt;&lt;p&gt;lets test some stuff then&lt;/p&gt;
+&lt;p&gt;we&amp;rsquo;ll see&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>testtt1</title>
+        <link>http://localhost:1313/post/test1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/test1/</guid>
+        <description>&lt;h2 id=&#34;heading-2&#34;&gt;heading 2
+&lt;/h2&gt;&lt;p&gt;some text under h2&lt;/p&gt;
+&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3
+&lt;/h3&gt;&lt;p&gt;Some text.
+excepteur aliqua pariatur ea incididunt esse laboris elit occaecat veniam cillum ut sint ad veniam consectetur labore Lorem voluptate minim elit anim ea proident elit qui aliqua exercitation incididunt fugiat non sit Lorem id pariatur ea excepteur laboris officia pariatur non nisi incididunt pariatur occaecat consectetur officia ut Lorem incididunt sit irure duis sit amet sunt duis consectetur reprehenderit ipsum ullamco et incididunt laborum ut dolor velit amet adipisicing irure aute et ex enim commodo proident exercitation magna aliqua tempor ex enim anim nulla elit eu labore nulla ad consectetur dolore mollit cupidatat incididunt ad voluptate duis excepteur nisi quis&lt;/p&gt;
 </description>
         </item>
         
