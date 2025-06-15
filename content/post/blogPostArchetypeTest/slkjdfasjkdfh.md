@@ -17,8 +17,8 @@ tags = [
 ]
 
 categories = [
-    "themes",
-    "syntax",
+    "Jkzmr",
+    "Web",
 ]
 series = [""]
 aliases = [""]
