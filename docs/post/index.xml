@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Jkzmr</title>
-        <link>https://jankazimir.github.io/post/</link>
+        <link>http://localhost:1313/post/</link>
         <description>Recent content in Posts on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 15 Jun 2025 15:45:57 +0200</lastBuildDate><atom:link href="https://jankazimir.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 15 Jun 2025 15:45:57 +0200</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Why Hugo?</title>
-        <link>https://jankazimir.github.io/post/why-hugo/</link>
+        <link>http://localhost:1313/post/why-hugo/</link>
         <pubDate>Sun, 15 Jun 2025 15:45:57 +0200</pubDate>
         
-        <guid>https://jankazimir.github.io/post/why-hugo/</guid>
+        <guid>http://localhost:1313/post/why-hugo/</guid>
         <description>&lt;p&gt;When it came time to create this website, I did the &lt;em&gt;very 2025&lt;/em&gt; thing and asked gemini how to go about it.  The answer actually made sense and I began, as suggested, by brainstorming some features and drawing up a wireframe.
 I knew what I wanted: a landing page with a blog, a projects page, and a contact/about page. Simple, and I knew how to make a static page in VScode and push it to GitHub to deploy it, all from my CodeCademy &lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/pages/about/#&amp;amp;gid=1&amp;amp;pid=2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;course&lt;/a&gt;.&lt;/p&gt;
@@ -26,16 +26,6 @@ I could probably use a markdown to html converter, maybe have a template ready f
 &lt;p&gt;I chose the latter.&lt;br&gt;
 Ultimately I will most likely end up learning both things, but using a template gets me results &lt;em&gt;now&lt;/em&gt;.
 Getting results is nice, getting results &lt;strong&gt;now&lt;/strong&gt; is better.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>My First Post</title>
-        <link>https://jankazimir.github.io/post/my-first-post/</link>
-        <pubDate>Wed, 11 Jun 2025 14:55:24 +0200</pubDate>
-        
-        <guid>https://jankazimir.github.io/post/my-first-post/</guid>
-        <description>&lt;p&gt;ut sunt fugiat aliqua ex minim ipsum et duis esse dolore eiusmod aliquip officia nulla sit quis aute irure officia consectetur esse ea amet ex aliquip irure id veniam officia minim enim ullamco eu sunt commodo consequat veniam excepteur mollit ea ex minim occaecat veniam sunt officia fugiat ut ex eiusmod Lorem laboris reprehenderit do ex Lorem fugiat est pariatur tempor velit reprehenderit occaecat exercitation magna fugiat minim nisi exercitation non consectetur eu et fugiat eiusmod amet elit labore amet ullamco occaecat sint labore cillum sint esse ullamco pariatur eu velit ipsum exercitation labore sunt cillum enim eu laboris irure&lt;/p&gt;
-&lt;p&gt;testing some more.&lt;/p&gt;
 </description>
         </item>
         

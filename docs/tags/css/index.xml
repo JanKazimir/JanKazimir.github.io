@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>CSS on Jkzmr</title>
-        <link>https://jankazimir.github.io/tags/css/</link>
-        <description>Recent content in CSS on Jkzmr</description>
+        <title>Css on Jkzmr</title>
+        <link>http://localhost:1313/tags/css/</link>
+        <description>Recent content in Css on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 15 Jun 2025 15:45:57 +0200</lastBuildDate><atom:link href="https://jankazimir.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 15 Jun 2025 15:45:57 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Why Hugo?</title>
-        <link>https://jankazimir.github.io/post/why-hugo/</link>
+        <link>http://localhost:1313/post/why-hugo/</link>
         <pubDate>Sun, 15 Jun 2025 15:45:57 +0200</pubDate>
         
-        <guid>https://jankazimir.github.io/post/why-hugo/</guid>
+        <guid>http://localhost:1313/post/why-hugo/</guid>
         <description>&lt;p&gt;When it came time to create this website, I did the &lt;em&gt;very 2025&lt;/em&gt; thing and asked gemini how to go about it.  The answer actually made sense and I began, as suggested, by brainstorming some features and drawing up a wireframe.
 I knew what I wanted: a landing page with a blog, a projects page, and a contact/about page. Simple, and I knew how to make a static page in VScode and push it to GitHub to deploy it, all from my CodeCademy &lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/pages/about/#&amp;amp;gid=1&amp;amp;pid=2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;course&lt;/a&gt;.&lt;/p&gt;
@@ -26,6 +26,23 @@ I could probably use a markdown to html converter, maybe have a template ready f
 &lt;p&gt;I chose the latter.&lt;br&gt;
 Ultimately I will most likely end up learning both things, but using a template gets me results &lt;em&gt;now&lt;/em&gt;.
 Getting results is nice, getting results &lt;strong&gt;now&lt;/strong&gt; is better.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>from arch</title>
+        <link>http://localhost:1313/posts/blogpostarchetypetest/slkjdfasjkdfh/</link>
+        <pubDate>Wed, 11 Jun 2025 21:02:18 +0200</pubDate>
+        
+        <guid>http://localhost:1313/posts/blogpostarchetypetest/slkjdfasjkdfh/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h2 id=&#34;created-from-archetype&#34;&gt;Created from archetype
+&lt;/h2&gt;&lt;p&gt;let&amp;rsquo;s see if it works&lt;/p&gt;
+&lt;h3 id=&#34;subtitles&#34;&gt;subtitles
+&lt;/h3&gt;&lt;p&gt;some text that exist now.&lt;/p&gt;
+&lt;h3 id=&#34;another-level-three&#34;&gt;another level three
+&lt;/h3&gt;&lt;p&gt;I want some content to here&lt;/p&gt;
+&lt;h4 id=&#34;a-level-4&#34;&gt;a level 4
+&lt;/h4&gt;&lt;p&gt;With some text at level 4, and i&amp;rsquo;d like a toc now please&lt;/p&gt;
 </description>
         </item>
         

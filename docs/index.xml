@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Jkzmr</title>
-        <link>https://jankazimir.github.io/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 15 Jun 2025 15:45:57 +0200</lastBuildDate><atom:link href="https://jankazimir.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 15 Jun 2025 15:45:57 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Why Hugo?</title>
-        <link>https://jankazimir.github.io/post/why-hugo/</link>
+        <link>http://localhost:1313/post/why-hugo/</link>
         <pubDate>Sun, 15 Jun 2025 15:45:57 +0200</pubDate>
         
-        <guid>https://jankazimir.github.io/post/why-hugo/</guid>
+        <guid>http://localhost:1313/post/why-hugo/</guid>
         <description>&lt;p&gt;When it came time to create this website, I did the &lt;em&gt;very 2025&lt;/em&gt; thing and asked gemini how to go about it.  The answer actually made sense and I began, as suggested, by brainstorming some features and drawing up a wireframe.
 I knew what I wanted: a landing page with a blog, a projects page, and a contact/about page. Simple, and I knew how to make a static page in VScode and push it to GitHub to deploy it, all from my CodeCademy &lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/pages/about/#&amp;amp;gid=1&amp;amp;pid=2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;course&lt;/a&gt;.&lt;/p&gt;
@@ -30,10 +30,10 @@ Getting results is nice, getting results &lt;strong&gt;now&lt;/strong&gt; is bet
         </item>
         <item>
         <title>About</title>
-        <link>https://jankazimir.github.io/pages/about/</link>
+        <link>http://localhost:1313/pages/about/</link>
         <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://jankazimir.github.io/pages/about/</guid>
+        <guid>http://localhost:1313/pages/about/</guid>
         <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome!
 &lt;/h2&gt;&lt;p&gt;On this site you will find &lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/pages/archives/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;posts&lt;/a&gt;, about projects I&amp;rsquo;ve build, their development and  topics related to programming.&lt;/p&gt;
@@ -45,10 +45,10 @@ You can find some of my projects tk change link to projects page, and on my &lt;
     &gt;GitHub&lt;/a&gt; profile.&lt;/p&gt;
 &lt;p&gt;Here are some web-oriented certificates on my &lt;a class=&#34;link&#34; href=&#34;https://www.codecademy.com/profiles/JanKazimirowski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Codecademy profile&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.41.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.41.png&#34;
 	width=&#34;727&#34;
 	height=&#34;576&#34;
-	srcset=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.41_hu_5d21f3a3d764eae4.png 480w, https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.41_hu_68bf917337dd7951.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.41_hu_5d21f3a3d764eae4.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.41_hu_68bf917337dd7951.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Javascript&#34;
@@ -58,10 +58,10 @@ You can find some of my projects tk change link to projects page, and on my &lt;
 		data-flex-grow=&#34;126&#34;
 		data-flex-basis=&#34;302px&#34;
 	
-&gt; &lt;img src=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.30.png&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.30.png&#34;
 	width=&#34;727&#34;
 	height=&#34;576&#34;
-	srcset=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.30_hu_b0e43c23d37258f0.png 480w, https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.30_hu_2e19b1e1414e69d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.30_hu_b0e43c23d37258f0.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.30_hu_2e19b1e1414e69d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Build a Website&#34;
@@ -71,10 +71,10 @@ You can find some of my projects tk change link to projects page, and on my &lt;
 		data-flex-grow=&#34;126&#34;
 		data-flex-basis=&#34;302px&#34;
 	
-&gt; &lt;img src=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.22.png&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.22.png&#34;
 	width=&#34;727&#34;
 	height=&#34;576&#34;
-	srcset=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.22_hu_9bdafa1d35f4e892.png 480w, https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.22_hu_c97432b3f011b803.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.22_hu_9bdafa1d35f4e892.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.22_hu_c97432b3f011b803.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Semantic Html&#34;
@@ -84,10 +84,10 @@ You can find some of my projects tk change link to projects page, and on my &lt;
 		data-flex-grow=&#34;126&#34;
 		data-flex-basis=&#34;302px&#34;
 	
-&gt; &lt;img src=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.09.png&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.09.png&#34;
 	width=&#34;727&#34;
 	height=&#34;576&#34;
-	srcset=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.09_hu_4f3dccece5014684.png 480w, https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.09_hu_e8b00d2dcd8cac15.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.09_hu_4f3dccece5014684.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.09_hu_e8b00d2dcd8cac15.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Html&#34;
@@ -104,21 +104,28 @@ You can find some of my projects tk change link to projects page, and on my &lt;
 </description>
         </item>
         <item>
-        <title>My First Post</title>
-        <link>https://jankazimir.github.io/post/my-first-post/</link>
-        <pubDate>Wed, 11 Jun 2025 14:55:24 +0200</pubDate>
+        <title>from arch</title>
+        <link>http://localhost:1313/posts/blogpostarchetypetest/slkjdfasjkdfh/</link>
+        <pubDate>Wed, 11 Jun 2025 21:02:18 +0200</pubDate>
         
-        <guid>https://jankazimir.github.io/post/my-first-post/</guid>
-        <description>&lt;p&gt;ut sunt fugiat aliqua ex minim ipsum et duis esse dolore eiusmod aliquip officia nulla sit quis aute irure officia consectetur esse ea amet ex aliquip irure id veniam officia minim enim ullamco eu sunt commodo consequat veniam excepteur mollit ea ex minim occaecat veniam sunt officia fugiat ut ex eiusmod Lorem laboris reprehenderit do ex Lorem fugiat est pariatur tempor velit reprehenderit occaecat exercitation magna fugiat minim nisi exercitation non consectetur eu et fugiat eiusmod amet elit labore amet ullamco occaecat sint labore cillum sint esse ullamco pariatur eu velit ipsum exercitation labore sunt cillum enim eu laboris irure&lt;/p&gt;
-&lt;p&gt;testing some more.&lt;/p&gt;
+        <guid>http://localhost:1313/posts/blogpostarchetypetest/slkjdfasjkdfh/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;h2 id=&#34;created-from-archetype&#34;&gt;Created from archetype
+&lt;/h2&gt;&lt;p&gt;let&amp;rsquo;s see if it works&lt;/p&gt;
+&lt;h3 id=&#34;subtitles&#34;&gt;subtitles
+&lt;/h3&gt;&lt;p&gt;some text that exist now.&lt;/p&gt;
+&lt;h3 id=&#34;another-level-three&#34;&gt;another level three
+&lt;/h3&gt;&lt;p&gt;I want some content to here&lt;/p&gt;
+&lt;h4 id=&#34;a-level-4&#34;&gt;a level 4
+&lt;/h4&gt;&lt;p&gt;With some text at level 4, and i&amp;rsquo;d like a toc now please&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Blog</title>
-        <link>https://jankazimir.github.io/pages/archives/</link>
+        <link>http://localhost:1313/pages/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://jankazimir.github.io/pages/archives/</guid>
+        <guid>http://localhost:1313/pages/archives/</guid>
         <description></description>
         </item>
         

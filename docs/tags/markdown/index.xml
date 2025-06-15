@@ -6,46 +6,7 @@
         <description>Recent content in Markdown on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 12 Jun 2025 11:34:56 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Toc Test</title>
-        <link>http://localhost:1313/post/toc-test/</link>
-        <pubDate>Thu, 12 Jun 2025 11:34:56 +0200</pubDate>
-        
-        <guid>http://localhost:1313/post/toc-test/</guid>
-        <description>&lt;h2 id=&#34;the-idead-is-to-test-the-toc-featur&#34;&gt;the idead is to test the toc featur
-&lt;/h2&gt;&lt;h3 id=&#34;lets-have-some-headings&#34;&gt;let&amp;rsquo;s have some headings
-&lt;/h3&gt;&lt;p&gt;with a bit of text here&lt;/p&gt;
-&lt;h3 id=&#34;some-other-heading&#34;&gt;some other heading
-&lt;/h3&gt;&lt;p&gt;sit officia incididunt excepteur ea do culpa commodo ipsum et non sint ex nisi consequat irure id sunt consequat nulla velit Lorem laboris ipsum Lorem ad ipsum irure laborum ipsum sint exercitation eiusmod aliquip culpa quis laborum commodo sit reprehenderit culpa amet do labore laborum anim aliquip incididunt magna officia est et magna laborum non amet fugiat anim elit non fugiat duis aliqua duis laborum et cupidatat est aute cupidatat laboris sit cillum Lorem aute ad Lorem sint reprehenderit qui qui magna adipisicing culpa commodo qui labore incididunt et cillum deserunt amet culpa in tempor elit aliqua adipisicing ex anim&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Last Test</title>
-        <link>http://localhost:1313/post/last-test/</link>
-        <pubDate>Thu, 12 Jun 2025 11:15:56 +0200</pubDate>
-        
-        <guid>http://localhost:1313/post/last-test/</guid>
-        <description>&lt;p&gt;Now let&amp;rsquo;s try this one&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>from arch</title>
-        <link>http://localhost:1313/post/blogpostarchetypetest/slkjdfasjkdfh/</link>
-        <pubDate>Wed, 11 Jun 2025 21:02:18 +0200</pubDate>
-        
-        <guid>http://localhost:1313/post/blogpostarchetypetest/slkjdfasjkdfh/</guid>
-        <description>&lt;p&gt;+++&lt;/p&gt;
-&lt;h2 id=&#34;created-from-archetype&#34;&gt;Created from archetype
-&lt;/h2&gt;&lt;p&gt;let&amp;rsquo;s see if it works&lt;/p&gt;
-&lt;h3 id=&#34;subtitles&#34;&gt;subtitles
-&lt;/h3&gt;&lt;p&gt;some text that exist now.&lt;/p&gt;
-&lt;h3 id=&#34;another-level-three&#34;&gt;another level three
-&lt;/h3&gt;&lt;p&gt;I want some content to here&lt;/p&gt;
-&lt;h4 id=&#34;a-level-4&#34;&gt;a level 4
-&lt;/h4&gt;&lt;p&gt;With some text at level 4, and i&amp;rsquo;d like a toc now please&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Wed, 11 Jun 2025 21:02:18 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>from arch</title>
         <link>http://localhost:1313/posts/blogpostarchetypetest/slkjdfasjkdfh/</link>
         <pubDate>Wed, 11 Jun 2025 21:02:18 +0200</pubDate>
