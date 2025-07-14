@@ -4,7 +4,7 @@ readingTime = true
 draft = false
 image = ''
 date = '2025-06-15T15:45:57+02:00'
-title = 'Why Hugo?'
+title = 'Choosing Hugo'
 description = 'It was not my first choice.'
 tags = [
     "Hugo",
@@ -25,7 +25,6 @@ When it came time to create this website, I did the *very 2025* thing and asked 
 I knew what I wanted: a landing page with a blog, a projects page, and a contact/about page. Simple, and I knew how to make a static page in VScode and push it to GitHub to deploy it, all from my CodeCademy [course](https://jankazimir.github.io/pages/about/#&gid=1&pid=2).
 
 I wrote a mock up, complete with weird colours (so I could see my flex boxes), and I was up and running.
- <!-- tk: include a link to the mockup, the context should be replaced with toc -->
 
 As I was linking the pages together, I began to realise that some of this was going to become a chore. The mockup was done, but far from *good* and it would need a lot of fine tuning to get there. I wasn’t going to make *bad* website, what would be the point?  But mostly, aside from a myriad of small flaws, the biggest problem was that my page just wasn’t a blog.
 At that point, creating a new post meant creating a new page, editing the html manually, linking from the homepage by editing the html manually, and linking from the blog page, by… You see where this is going.
