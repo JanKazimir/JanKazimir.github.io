@@ -1,5 +1,8 @@
 # My remarks
 
+The live folder, the place that is actually outputting to the web is : 
+
+
 #### Changing fonts
 
 "<https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap>"
