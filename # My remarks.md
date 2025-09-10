@@ -4,6 +4,14 @@ The live folder, the place that is actually outputting to the web is : content >
 
 This thing is slightly a paing to be honest. 
 
+### Posts
+
+create from archetype
+copy paste the piece
+fill in the yaml
+! don't forget to change draft to false, otherwise is only seems to work, then doesn't
+
+
 
 #### Changing fonts
 
