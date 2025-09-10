@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jankazimir.github.io/</loc>
+    <lastmod>2025-09-06T11:54:52+02:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/post/</loc>
+    <lastmod>2025-09-06T11:54:52+02:00</lastmod>
+  </url><url>
     <loc>https://jankazimir.github.io/categories/</loc>
     <lastmod>2025-06-15T15:45:57+02:00</lastmod>
   </url><url>
@@ -17,13 +23,7 @@
     <loc>https://jankazimir.github.io/tags/hugo/</loc>
     <lastmod>2025-06-15T15:45:57+02:00</lastmod>
   </url><url>
-    <loc>https://jankazimir.github.io/</loc>
-    <lastmod>2025-06-15T15:45:57+02:00</lastmod>
-  </url><url>
     <loc>https://jankazimir.github.io/categories/jkzmr/</loc>
-    <lastmod>2025-06-15T15:45:57+02:00</lastmod>
-  </url><url>
-    <loc>https://jankazimir.github.io/post/</loc>
     <lastmod>2025-06-15T15:45:57+02:00</lastmod>
   </url><url>
     <loc>https://jankazimir.github.io/tags/</loc>
