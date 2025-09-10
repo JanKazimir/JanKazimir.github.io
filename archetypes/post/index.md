@@ -7,14 +7,14 @@ date = '{{ .Date }}'
 title = '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 description = 'text that appears below title on the homepage'
 tags = [
-    "markdown",
-    "css",
-    "html",
-    "themes",
+    "Python",
+    "Analysis",
+    "Project",
+    "Programming",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "Data Science",
+    "Project Showcase",
 ]
 series = [""]
 aliases = [""]

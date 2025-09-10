@@ -1,6 +1,8 @@
 # My remarks
 
-The live folder, the place that is actually outputting to the web is : content? or public? or page?
+The live folder, the place that is actually outputting to the web is : content > post (I think)
+
+This thing is slightly a paing to be honest. 
 
 
 #### Changing fonts
