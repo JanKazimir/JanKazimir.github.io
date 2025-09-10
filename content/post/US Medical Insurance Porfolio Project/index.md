@@ -1,7 +1,7 @@
 +++
 toc = true
 readingTime = true
-draft = true
+draft = false
 image = ''
 date = '2025-09-06T11:54:52+02:00'
 title = 'US Medical Insurance Portfolio Project'

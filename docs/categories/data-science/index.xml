@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Jkzmr</title>
-        <link>https://jankazimir.github.io/post/</link>
-        <description>Recent content in Posts on Jkzmr</description>
+        <title>Data Science on Jkzmr</title>
+        <link>https://jankazimir.github.io/categories/data-science/</link>
+        <description>Recent content in Data Science on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 06 Sep 2025 11:54:52 +0200</lastBuildDate><atom:link href="https://jankazimir.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 06 Sep 2025 11:54:52 +0200</lastBuildDate><atom:link href="https://jankazimir.github.io/categories/data-science/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>US Medical Insurance Portfolio Project</title>
         <link>https://jankazimir.github.io/post/us-medical-insurance-porfolio-project/</link>
         <pubDate>Sat, 06 Sep 2025 11:54:52 +0200</pubDate>
@@ -56,27 +56,6 @@ Counter is useful to have an idea of the ranges of values in a variable. How hig
 &lt;/h2&gt;&lt;p&gt;There we quite a few moments when I wanted to &lt;em&gt;see&lt;/em&gt; the data. Graphing variables, their relationships would be quite useful, and not just for generating “actionable insights”, just a tempory tool while exploring data.
 For instance, when looking at bmi, it would be very nice to just plot all the data points on a curve and look at the shape. I sorta did that using the Sorted() method, to order everything, but it’s still not very nice.&lt;/p&gt;
 &lt;p&gt;I looked into it obviously, and it’s done with pandas, which is the very next module in the course. Nice.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Choosing Hugo</title>
-        <link>https://jankazimir.github.io/post/why-hugo/</link>
-        <pubDate>Sun, 15 Jun 2025 15:45:57 +0200</pubDate>
-        
-        <guid>https://jankazimir.github.io/post/why-hugo/</guid>
-        <description>&lt;p&gt;When it came time to create this website, I did the &lt;em&gt;very 2025&lt;/em&gt; thing and asked gemini how to go about it.  The answer actually made sense and I began, as suggested, by brainstorming some features and drawing up a wireframe.
-I knew what I wanted: a landing page with a blog, a projects page, and a contact/about page. Simple, and I knew how to make a static page in VScode and push it to GitHub to deploy it, all from my CodeCademy &lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/pages/about/#&amp;amp;gid=1&amp;amp;pid=2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;course&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I wrote a mock up, complete with weird colours (so I could see my flex boxes), and I was up and running.&lt;/p&gt;
-&lt;p&gt;As I was linking the pages together, I began to realise that some of this was going to become a chore. The mockup was done, but far from &lt;em&gt;good&lt;/em&gt; and it would need a lot of fine tuning to get there. I wasn’t going to make &lt;em&gt;bad&lt;/em&gt; website, what would be the point?  But mostly, aside from a myriad of small flaws, the biggest problem was that my page just wasn’t a blog.
-At that point, creating a new post meant creating a new page, editing the html manually, linking from the homepage by editing the html manually, and linking from the blog page, by… You see where this is going.
-I could probably use a markdown to html converter, maybe have a template ready for some copy pasting, but it still seemed like a chore. There had to be a better way…&lt;/p&gt;
-&lt;p&gt;I figured I had two options : fine tune the design of the mockup, while I learned to implement the features I wanted, or use a template and a static site generator.
-[] &amp;gt; Links to static site generator
-[] &amp;gt; Link to stack template&lt;/p&gt;
-&lt;p&gt;I chose the latter.&lt;br&gt;
-Ultimately I will most likely end up learning both things, but using a template gets me results &lt;em&gt;now&lt;/em&gt;.
-Getting results is nice, getting results &lt;strong&gt;now&lt;/strong&gt; is better.&lt;/p&gt;
 </description>
         </item>
         
