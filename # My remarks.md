@@ -2,15 +2,17 @@
 
 The live folder, the place that is actually outputting to the web is : content > post (I think)
 
-This thing is slightly a paing to be honest. 
+This thing is slightly a pain to be honest. 
 
 ### Posts
 
 create from archetype
 copy paste the piece
 fill in the yaml
-! don't forget to change draft to false, otherwise is only seems to work, then doesn't
+! don't forget to change draft to false, otherwise it only seems to work, then doesn't
 
+then  in command pallette
+run task > build site 
 
 
 #### Changing fonts

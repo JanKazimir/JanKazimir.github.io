@@ -6,18 +6,10 @@
         <description>Recent content in Tags on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 06 Sep 2025 11:54:52 +0200</lastBuildDate><atom:link href="https://jankazimir.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Analysis</title>
-        <link>https://jankazimir.github.io/tags/analysis/</link>
-        <pubDate>Sat, 06 Sep 2025 11:54:52 +0200</pubDate>
-        
-        <guid>https://jankazimir.github.io/tags/analysis/</guid>
-        <description></description>
-        </item>
-        <item>
+        <lastBuildDate>Wed, 03 Dec 2025 12:36:49 +0100</lastBuildDate><atom:link href="https://jankazimir.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Programming</title>
         <link>https://jankazimir.github.io/tags/programming/</link>
-        <pubDate>Sat, 06 Sep 2025 11:54:52 +0200</pubDate>
+        <pubDate>Wed, 03 Dec 2025 12:36:49 +0100</pubDate>
         
         <guid>https://jankazimir.github.io/tags/programming/</guid>
         <description></description>
@@ -25,7 +17,7 @@
         <item>
         <title>Project</title>
         <link>https://jankazimir.github.io/tags/project/</link>
-        <pubDate>Sat, 06 Sep 2025 11:54:52 +0200</pubDate>
+        <pubDate>Wed, 03 Dec 2025 12:36:49 +0100</pubDate>
         
         <guid>https://jankazimir.github.io/tags/project/</guid>
         <description></description>
@@ -33,9 +25,17 @@
         <item>
         <title>Python</title>
         <link>https://jankazimir.github.io/tags/python/</link>
-        <pubDate>Sat, 06 Sep 2025 11:54:52 +0200</pubDate>
+        <pubDate>Wed, 03 Dec 2025 12:36:49 +0100</pubDate>
         
         <guid>https://jankazimir.github.io/tags/python/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Analysis</title>
+        <link>https://jankazimir.github.io/tags/analysis/</link>
+        <pubDate>Sat, 06 Sep 2025 11:54:52 +0200</pubDate>
+        
+        <guid>https://jankazimir.github.io/tags/analysis/</guid>
         <description></description>
         </item>
         <item>

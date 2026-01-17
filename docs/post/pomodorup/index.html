@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="How I learned to Relax and ride the Vibes">
+<title>PomodorUp And adventures in Vibe Coding</title>
+
+<link rel='canonical' href='https://jankazimir.github.io/post/pomodorup/'>
+
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="PomodorUp And adventures in Vibe Coding">
+<meta property='og:description' content="How I learned to Relax and ride the Vibes">
+<meta property='og:url' content='https://jankazimir.github.io/post/pomodorup/'>
+<meta property='og:site_name' content='Jkzmr'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Python' /><meta property='article:tag' content='Project' /><meta property='article:tag' content='Programming' /><meta property='article:published_time' content='2025-12-03T12:36:49&#43;01:00'/><meta property='article:modified_time' content='2025-12-03T12:36:49&#43;01:00'/>
+<meta name="twitter:title" content="PomodorUp And adventures in Vibe Coding">
+<meta name="twitter:description" content="How I learned to Relax and ride the Vibes">
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+
+
+<style>
+     
+    :root {
+        --article-font-family: "Cousine", var(--base-font-family);
+    }
+</style>
+
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap";
+    
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+    
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+
+
+
+
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/logo_hu_713a03b2cec645c8.png" width="300"
+                            height="304" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Jkzmr</a></h1>
+            <h2 class="site-description">A developping Website</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/JanKazimir'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://linkedIn.com/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 11v5" /><path d="M8 8v.01" /><path d="M12 16v-5" /><path d="M16 16v-3a2 2 0 1 0 -4 0" /><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://bsky.app/profile/jkzmr.bsky.social'
+                        target="_blank"
+                        title="Bluesky"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bluesky"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.335 5.144c-1.654 -1.199 -4.335 -2.127 -4.335 .826c0 .59 .35 4.953 .556 5.661c.713 2.463 3.13 2.75 5.444 2.369c-4.045 .665 -4.889 3.208 -2.667 5.41c1.03 1.018 1.913 1.59 2.667 1.59c2 0 3.134 -2.769 3.5 -3.5c.333 -.667 .5 -1.167 .5 -1.5c0 .333 .167 .833 .5 1.5c.366 .731 1.5 3.5 3.5 3.5c.754 0 1.637 -.571 2.667 -1.59c2.222 -2.203 1.378 -4.746 -2.667 -5.41c2.314 .38 4.73 .094 5.444 -2.369c.206 -.708 .556 -5.072 .556 -5.661c0 -2.953 -2.68 -2.025 -4.335 -.826c-2.293 1.662 -4.76 5.048 -5.665 6.856c-.905 -1.808 -3.372 -5.194 -5.665 -6.856z" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/pages/archives/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-article"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M7 8h10" /><path d="M7 12h10" /><path d="M7 16h10" /></svg>
+                
+                <span>Blog</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-codepen"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 15l9 6l9 -6l-9 -6l-9 6" /><path d="M3 9l9 6l9 -6l-9 -6l-9 6" /><path d="M3 9l0 6" /><path d="M21 9l0 6" /><path d="M12 3l0 6" /><path d="M12 15l0 6" /></svg>
+                
+                <span>Projects</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/pages/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#the-process">The process</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/programming/" >
+                Programming
+            </a>
+        
+            <a href="/categories/project-showcase/" >
+                Project Showcase
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/pomodorup/">PomodorUp And adventures in Vibe Coding</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            How I learned to Relax and ride the Vibes
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 03, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    6 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="pomodorup-and-adventures-in-vibe-coding">PomodorUp And adventures in Vibe Coding
+</h1><p>0/ Does “vibe coding” deserve PascalCase?</p>
+<p>I made an app. I use it all the time!
+It’s called PomodorUp, because it’s a Pomodoro timer&hellip; that counts Up! Groundbreaking. As hard as it is to believe, I actually <em>wanted</em> this, to the point that I made it. I also hoped to learn from the process, and, and I <em>sorta</em> did.
+Let me explain.</p>
+<p>I think the best learning comes from trying to achieve a result.
+Reality forces you to solve problems every step of the way, that’s expected, but importantly, <em>unexpected problems</em> arise.</p>
+<p>This is why vibe coding is strange: it sits in between you and the goal, you and the problem: you’re managing an ai agent, that hopefully solves the problem. If you never look at the code and approve blindly, would you learn anything?
+As it turn out, yes, to some extent.</p>
+<p>Building pomodorUp I have seen the code of a full program; many interacting functions summing up to a whole program. The way classes are used, and how much research into libraries is involved with doing something as simple as a timer.
+I learned what a virtual environment is, how to run a script, and (much, <em>much</em>) later that there is a button for that in vscode (top right of the main window).
+This is what I learned from vibe coding. The useful result.
+I also have an app that i use all the time and that’s cool.</p>
+<p>But did I learn to code better?
+Not really, no. I didn’t write a single function. I modified things, like the position of text appearing on the menu bar icon.
+But that’s not all there is to it to programming, and <em>that</em>, is something I learned. Deployment, envrironment, library research, interacting with macOS, all those are necessary parts of a running program.
+Speedrunning through the process of writing a program is incredibly useful: I know what I’m getting into with much more clarity now.
+I can’t code better, but it made me a better <em>programmer</em>.</p>
+<h3 id="the-process">The process
+</h3><p>I started simple with making a set detailed prompts that I was carefully  going to feed, one at time, going bit by bit.</p>
+<p>This was my initial prompt:</p>
+<blockquote>
+<p>So here is the idea; i want to create a simple mac os app : a pomodoro timer that counts UP instead of down. Amazing, groundbreaking, i know.<br>
+This is the first time i create an application of any kind. I do know some python, which is why i want the app to be done in python, but i have no idea of the libraries i might need or anything like that. i would like the app to live in the menu bar of the mac, and have a graphical interface, altough we can keep that for later if it&rsquo;s easier to just do it with a terminal commands or something.<br>
+So let&rsquo;s start with the basic:</p></blockquote>
+<p>And there I mistakenly pressed <code>enter</code> instead of <code>shift</code> + <code>enter</code>.
+Off it went, riproaring through the task like a toddler on red bull: you sit back, wait and hope nothing expensive breaks.</p>
+<p>It flattered me for my genius idea, recommended and built a virtual environment, and wrote this script: </p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> time
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> threading
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> datetime <span style="color:#f92672">import</span> datetime, timedelta
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> pystray
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image, ImageDraw
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">PomodoroTimer</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__init__</span>(self):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>start_time <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>is_running <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>timer_thread <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>icon <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">create_icon</span>(self, text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;00:00&#34;</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Create a simple icon with the timer text</span>
+</span></span><span style="display:flex;"><span>        width <span style="color:#f92672">=</span> <span style="color:#ae81ff">64</span>
+</span></span><span style="display:flex;"><span>        height <span style="color:#f92672">=</span> <span style="color:#ae81ff">64</span>
+</span></span><span style="display:flex;"><span>        image <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>new(<span style="color:#e6db74">&#39;RGB&#39;</span>, (width, height), color<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;white&#39;</span>)
+</span></span><span style="display:flex;"><span>        draw <span style="color:#f92672">=</span> ImageDraw<span style="color:#f92672">.</span>Draw(image)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Draw a simple circle for the icon</span>
+</span></span><span style="display:flex;"><span>        draw<span style="color:#f92672">.</span>ellipse([<span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">56</span>, <span style="color:#ae81ff">56</span>], fill<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;red&#39;</span>, outline<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;darkred&#39;</span>)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Add timer text</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>            draw<span style="color:#f92672">.</span>text((width<span style="color:#f92672">//</span><span style="color:#ae81ff">2</span>, height<span style="color:#f92672">//</span><span style="color:#ae81ff">2</span>), text, fill<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;white&#39;</span>, anchor<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;mm&#39;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">except</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Fallback if text drawing fails</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">pass</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> image
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_elapsed_time</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> self<span style="color:#f92672">.</span>start_time:
+</span></span><span style="display:flex;"><span>            elapsed <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>now() <span style="color:#f92672">-</span> self<span style="color:#f92672">.</span>start_time
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> elapsed
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> timedelta(<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">format_time</span>(self, elapsed):
+</span></span><span style="display:flex;"><span>        total_seconds <span style="color:#f92672">=</span> int(elapsed<span style="color:#f92672">.</span>total_seconds())
+</span></span><span style="display:flex;"><span>        minutes <span style="color:#f92672">=</span> total_seconds <span style="color:#f92672">//</span> <span style="color:#ae81ff">60</span>
+</span></span><span style="display:flex;"><span>        seconds <span style="color:#f92672">=</span> total_seconds <span style="color:#f92672">%</span> <span style="color:#ae81ff">60</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>minutes<span style="color:#e6db74">:</span><span style="color:#e6db74">02d</span><span style="color:#e6db74">}</span><span style="color:#e6db74">:</span><span style="color:#e6db74">{</span>seconds<span style="color:#e6db74">:</span><span style="color:#e6db74">02d</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">update_icon</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> self<span style="color:#f92672">.</span>is_running:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> self<span style="color:#f92672">.</span>start_time:
+</span></span><span style="display:flex;"><span>                elapsed <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>get_elapsed_time()
+</span></span><span style="display:flex;"><span>                time_text <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>format_time(elapsed)
+</span></span><span style="display:flex;"><span>                new_icon <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>create_icon(time_text)
+</span></span><span style="display:flex;"><span>                self<span style="color:#f92672">.</span>icon<span style="color:#f92672">.</span>icon <span style="color:#f92672">=</span> new_icon
+</span></span><span style="display:flex;"><span>            time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">start_timer</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> self<span style="color:#f92672">.</span>is_running:
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>start_time <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>now()
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>is_running <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>timer_thread <span style="color:#f92672">=</span> threading<span style="color:#f92672">.</span>Thread(target<span style="color:#f92672">=</span>self<span style="color:#f92672">.</span>update_icon, daemon<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>timer_thread<span style="color:#f92672">.</span>start()
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;Timer started!&#34;</span>)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">stop_timer</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> self<span style="color:#f92672">.</span>is_running:
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>is_running <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>start_time <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>icon<span style="color:#f92672">.</span>icon <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>create_icon(<span style="color:#e6db74">&#34;00:00&#34;</span>)
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;Timer stopped!&#34;</span>)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">reset_timer</span>(self):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>stop_timer()
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;Timer reset!&#34;</span>)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">quit_app</span>(self):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>stop_timer()
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>icon<span style="color:#f92672">.</span>stop()
+</span></span><span style="display:flex;"><span>        sys<span style="color:#f92672">.</span>exit()
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">create_menu</span>(self):
+</span></span><span style="display:flex;"><span>        menu <span style="color:#f92672">=</span> pystray<span style="color:#f92672">.</span>Menu(
+</span></span><span style="display:flex;"><span>            pystray<span style="color:#f92672">.</span>MenuItem(<span style="color:#e6db74">&#34;Start Timer&#34;</span>, self<span style="color:#f92672">.</span>start_timer),
+</span></span><span style="display:flex;"><span>            pystray<span style="color:#f92672">.</span>MenuItem(<span style="color:#e6db74">&#34;Stop Timer&#34;</span>, self<span style="color:#f92672">.</span>stop_timer),
+</span></span><span style="display:flex;"><span>            pystray<span style="color:#f92672">.</span>MenuItem(<span style="color:#e6db74">&#34;Reset Timer&#34;</span>, self<span style="color:#f92672">.</span>reset_timer),
+</span></span><span style="display:flex;"><span>            pystray<span style="color:#f92672">.</span>Menu<span style="color:#f92672">.</span>SEPARATOR,
+</span></span><span style="display:flex;"><span>            pystray<span style="color:#f92672">.</span>MenuItem(<span style="color:#e6db74">&#34;Quit&#34;</span>, self<span style="color:#f92672">.</span>quit_app)
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> menu
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">run</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Create initial icon</span>
+</span></span><span style="display:flex;"><span>        initial_icon <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>create_icon(<span style="color:#e6db74">&#34;00:00&#34;</span>)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Create the system tray icon</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>icon <span style="color:#f92672">=</span> pystray<span style="color:#f92672">.</span>Icon(<span style="color:#e6db74">&#34;PomodorUP&#34;</span>, initial_icon, <span style="color:#e6db74">&#34;PomodorUP Timer&#34;</span>, self<span style="color:#f92672">.</span>create_menu())
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Run the app</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>icon<span style="color:#f92672">.</span>run()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+</span></span><span style="display:flex;"><span>    timer <span style="color:#f92672">=</span> PomodoroTimer()
+</span></span><span style="display:flex;"><span>    timer<span style="color:#f92672">.</span>run()
+</span></span></code></pre></div><p>It <em>worked</em>.
+It was ugly, but it <em>worked</em>.</p>
+<p>Little by little, I began to feed it higher level prompts; my experience has been that the models are now pretty good at guessing intent, while filling in every detail takes time, and is more likely to confuse the AI. It will sometimes be wrong and confidentely go for it, so I’ve had to go back to undo things, but it also means I can be somewhat vague, point to something and get a good result. Sometimes.
+The confidence can be entertaining&hellip; and grating.
+One pitfall I noticed is that when trying to do a complex task, or many small taks in one prompt, the model will miss the most important task but go way too deep on some detail.</p>
+<h4 id="its-gambling">It’s gambling.
+</h4><p>I have read that analogy several times by now, and there is a lot of truth to it. Sometimes a vague direction returns working code <em>fast</em>. There is a thrill to that, it’s a rush, it’s fun&hellip;
+But then you can rewrite the same prompt 10 times, going back and forth around the same tasks, hoping that pulling that bandit’s arm <em>one more time</em> will deliver the goods.
+Nope, it didn’t.
+But maybe <em>this</em> time?</p>
+<p>You often win, especially small, easy tasks. But I also nearly drove myself nuts trying to make the “drift +1” function be triggered by a single left click on the icon. It was never going to work, but it wasn’t <em>telling me that</em>. Not until I changed the model.</p>
+<p>So it’s good, but not great, annoying but helpful, a great teacher, sometimes, an annoying prick on occasion.
+A tool, we all have to decide when and where to use it.
+This is what it looks like right now:</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/python/">Python</a>
+        
+            <a href="/tags/project/">Project</a>
+        
+            <a href="/tags/programming/">Programming</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/post/us-medical-insurance-porfolio-project/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">US Medical Insurance Portfolio Project</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2026 Jkzmr
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

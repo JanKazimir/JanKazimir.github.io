@@ -2,34 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jankazimir.github.io/categories/</loc>
+    <lastmod>2025-12-03T12:36:49+01:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/</loc>
+    <lastmod>2025-12-03T12:36:49+01:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/post/pomodorup/</loc>
+    <lastmod>2025-12-03T12:36:49+01:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/post/</loc>
+    <lastmod>2025-12-03T12:36:49+01:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/categories/programming/</loc>
+    <lastmod>2025-12-03T12:36:49+01:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/tags/programming/</loc>
+    <lastmod>2025-12-03T12:36:49+01:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/tags/project/</loc>
+    <lastmod>2025-12-03T12:36:49+01:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/categories/project-showcase/</loc>
+    <lastmod>2025-12-03T12:36:49+01:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/tags/python/</loc>
+    <lastmod>2025-12-03T12:36:49+01:00</lastmod>
+  </url><url>
+    <loc>https://jankazimir.github.io/tags/</loc>
+    <lastmod>2025-12-03T12:36:49+01:00</lastmod>
+  </url><url>
     <loc>https://jankazimir.github.io/tags/analysis/</loc>
     <lastmod>2025-09-06T11:54:52+02:00</lastmod>
   </url><url>
-    <loc>https://jankazimir.github.io/categories/</loc>
-    <lastmod>2025-09-06T11:54:52+02:00</lastmod>
-  </url><url>
     <loc>https://jankazimir.github.io/categories/data-science/</loc>
-    <lastmod>2025-09-06T11:54:52+02:00</lastmod>
-  </url><url>
-    <loc>https://jankazimir.github.io/</loc>
-    <lastmod>2025-09-06T11:54:52+02:00</lastmod>
-  </url><url>
-    <loc>https://jankazimir.github.io/post/</loc>
-    <lastmod>2025-09-06T11:54:52+02:00</lastmod>
-  </url><url>
-    <loc>https://jankazimir.github.io/tags/programming/</loc>
-    <lastmod>2025-09-06T11:54:52+02:00</lastmod>
-  </url><url>
-    <loc>https://jankazimir.github.io/tags/project/</loc>
-    <lastmod>2025-09-06T11:54:52+02:00</lastmod>
-  </url><url>
-    <loc>https://jankazimir.github.io/categories/project-showcase/</loc>
-    <lastmod>2025-09-06T11:54:52+02:00</lastmod>
-  </url><url>
-    <loc>https://jankazimir.github.io/tags/python/</loc>
-    <lastmod>2025-09-06T11:54:52+02:00</lastmod>
-  </url><url>
-    <loc>https://jankazimir.github.io/tags/</loc>
     <lastmod>2025-09-06T11:54:52+02:00</lastmod>
   </url><url>
     <loc>https://jankazimir.github.io/post/us-medical-insurance-porfolio-project/</loc>
@@ -67,7 +73,5 @@
   </url><url>
     <loc>https://jankazimir.github.io/pages/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jankazimir.github.io/pages/search/</loc>
   </url>
 </urlset>
