@@ -16,10 +16,13 @@ run task > build site
 then commit and push to github
 
 #### adding images
-images go into the static/img folder of the project
+images go into the sub folder of the post, for example /Users/jkzmr/_MEDIA/code/Projects/WEB/Jkzmr/content/post/pomodorup
+Just dump the images in there, with index.md. It's because the theme uses bundles.
 
-then link to that using normal markdown syntax
+In the post link directly to it:
+![first image](image1.png)
 
+https://stack.jimmycai.com/writing/markdown
 
 
 #### Changing fonts
