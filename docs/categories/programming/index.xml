@@ -144,11 +144,20 @@ Off it went, riproaring through the task like a toddler on red bull: you sit bac
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    timer&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;run()
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It &lt;em&gt;worked&lt;/em&gt;.
 It was ugly, but it &lt;em&gt;worked&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/Users/jkzmr/_MEDIA/code/Projects/WEB/Jkzmr/static/img/PU1.png&#34; &gt;First try: the red circle on a white square.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jankazimir.github.io/static/img/PU1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;First try: the red circle on a white square.&#34;
+	
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;Little by little, I began to feed it higher level prompts; my experience has been that the models are now pretty good at guessing intent, while filling in every detail takes time, and is more likely to confuse the AI. It will sometimes be wrong and confidentely go for it, so I’ve had to go back to undo things, but it also means I can be somewhat vague, point to something and get a good result. Sometimes.
 The confidence can be entertaining&amp;hellip; and grating.
 One pitfall I noticed is that when trying to do a complex task, or many small taks in one prompt, the model will miss the most important task but go way too deep on some detail.&lt;/p&gt;
-&lt;h2 id=&#34;its-gambling&#34;&gt;It’s gambling.
+&lt;h2 id=&#34;its-gambling&#34;&gt;It’s gambling
 &lt;/h2&gt;&lt;p&gt;I have read that analogy several times by now, and there is a lot of truth to it. Sometimes a vague direction returns working code &lt;em&gt;fast&lt;/em&gt;. There is a thrill to that, it’s a rush, it’s fun&amp;hellip;
 But then you can rewrite the same prompt 10 times, going back and forth around the same tasks, hoping that pulling that bandit’s arm &lt;em&gt;one more time&lt;/em&gt; will deliver the goods.
 Nope, it didn’t.
@@ -157,7 +166,16 @@ But maybe &lt;em&gt;this&lt;/em&gt; time?&lt;/p&gt;
 &lt;p&gt;So it’s good, but not great, annoying but helpful, a great teacher, sometimes, an annoying prick on occasion.
 A tool, we all have to decide when and where to use it.
 This is what it looks like right now:&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/Users/jkzmr/_MEDIA/code/Projects/WEB/Jkzmr/static/img/PU2.png&#34; &gt;PomodorUp now: the rainbow icon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jankazimir.github.io/static/img/PU2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;PomodorUp now: the rainbow icon&#34;
+	
+	
+&gt;&lt;/p&gt;
 </description>
         </item>
         
