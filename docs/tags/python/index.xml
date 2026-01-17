@@ -7,12 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Wed, 03 Dec 2025 12:36:49 +0100</lastBuildDate><atom:link href="https://jankazimir.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>PomodorUp And adventures in Vibe Coding</title>
+        <title>PomodorUp: Adventures in Vibe Coding</title>
         <link>https://jankazimir.github.io/post/pomodorup/</link>
         <pubDate>Wed, 03 Dec 2025 12:36:49 +0100</pubDate>
         
         <guid>https://jankazimir.github.io/post/pomodorup/</guid>
-        <description>&lt;h1 id=&#34;pomodorup-and-adventures-in-vibe-coding&#34;&gt;PomodorUp And adventures in Vibe Coding
+        <description>&lt;h1 id=&#34;pomodorup-adventures-in-vibe-coding&#34;&gt;PomodorUp: Adventures in Vibe Coding
 &lt;/h1&gt;&lt;p&gt;0/ Does “vibe coding” deserve PascalCase?&lt;/p&gt;
 &lt;p&gt;I made an app. I use it all the time!
 It’s called PomodorUp, because it’s a Pomodoro timer&amp;hellip; that counts Up! Groundbreaking. As hard as it is to believe, I actually &lt;em&gt;wanted&lt;/em&gt; this, to the point that I made it. I also hoped to learn from the process, and, and I &lt;em&gt;sorta&lt;/em&gt; did.
@@ -144,7 +144,7 @@ Off it went, riproaring through the task like a toddler on red bull: you sit bac
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    timer&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;run()
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It &lt;em&gt;worked&lt;/em&gt;.
 It was ugly, but it &lt;em&gt;worked&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;static/img/PU1.png&#34; &gt;First try&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/Users/jkzmr/_MEDIA/code/Projects/WEB/Jkzmr/static/img/PU1.png&#34; &gt;First try: the red circle on a white square.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Little by little, I began to feed it higher level prompts; my experience has been that the models are now pretty good at guessing intent, while filling in every detail takes time, and is more likely to confuse the AI. It will sometimes be wrong and confidentely go for it, so I’ve had to go back to undo things, but it also means I can be somewhat vague, point to something and get a good result. Sometimes.
 The confidence can be entertaining&amp;hellip; and grating.
 One pitfall I noticed is that when trying to do a complex task, or many small taks in one prompt, the model will miss the most important task but go way too deep on some detail.&lt;/p&gt;
@@ -157,7 +157,7 @@ But maybe &lt;em&gt;this&lt;/em&gt; time?&lt;/p&gt;
 &lt;p&gt;So it’s good, but not great, annoying but helpful, a great teacher, sometimes, an annoying prick on occasion.
 A tool, we all have to decide when and where to use it.
 This is what it looks like right now:&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;static/img/PU2.png&#34; &gt;PomodorUp now&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/Users/jkzmr/_MEDIA/code/Projects/WEB/Jkzmr/static/img/PU2.png&#34; &gt;PomodorUp now: the rainbow icon&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>

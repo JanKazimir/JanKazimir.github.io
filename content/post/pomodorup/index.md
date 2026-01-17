@@ -4,7 +4,7 @@ readingTime = true
 draft = false
 image = ''
 date = '2025-12-03T12:36:49+01:00'
-title = 'PomodorUp And adventures in Vibe Coding'
+title = 'PomodorUp: Adventures in Vibe Coding'
 description = 'How I learned to Relax and Ride the Vibes'
 tags = [
     "Python",
@@ -19,7 +19,7 @@ series = [""]
 aliases = [""]
 
 +++
-# PomodorUp And adventures in Vibe Coding
+# PomodorUp: Adventures in Vibe Coding
 
 0/ Does “vibe coding” deserve PascalCase?
 
@@ -170,7 +170,7 @@ if __name__ == "__main__":
 It *worked*. 
 It was ugly, but it *worked*.
 <!-- tk: insert images here -->
-[First try](static/img/PU1.png)
+[First try: the red circle on a white square.](/Users/jkzmr/_MEDIA/code/Projects/WEB/Jkzmr/static/img/PU1.png)
 
 
 
@@ -190,7 +190,7 @@ So it’s good, but not great, annoying but helpful, a great teacher, sometimes,
 A tool, we all have to decide when and where to use it. 
 This is what it looks like right now: 
 <!-- insert image here -->
-[PomodorUp now](static/img/PU2.png)
+[PomodorUp now: the rainbow icon](/Users/jkzmr/_MEDIA/code/Projects/WEB/Jkzmr/static/img/PU2.png)
 
 
 
