@@ -13,6 +13,13 @@ fill in the yaml
 
 then  in command pallette
 run task > build site 
+then commit and push to github
+
+#### adding images
+images go into the static/img folder of the project
+
+then link to that using normal markdown syntax
+
 
 
 #### Changing fonts

@@ -5,7 +5,7 @@ draft = false
 image = ''
 date = '2025-12-03T12:36:49+01:00'
 title = 'PomodorUp And adventures in Vibe Coding'
-description = 'How I learned to Relax and ride the Vibes'
+description = 'How I learned to Relax and Ride the Vibes'
 tags = [
     "Python",
     "Project",
@@ -44,7 +44,7 @@ But that’s not all there is to it to programming, and *that*, is something I l
 Speedrunning through the process of writing a program is incredibly useful: I know what I’m getting into with much more clarity now. 
 I can’t code better, but it made me a better *programmer*. 
 
-### The process
+## The process
 
 I started simple with making a set detailed prompts that I was carefully  going to feed, one at time, going bit by bit.
 
@@ -168,6 +168,8 @@ if __name__ == "__main__":
 It *worked*. 
 It was ugly, but it *worked*.
 <!-- tk: insert images here -->
+[First try](static/img/PU1.png)
+
 
 
 Little by little, I began to feed it higher level prompts; my experience has been that the models are now pretty good at guessing intent, while filling in every detail takes time, and is more likely to confuse the AI. It will sometimes be wrong and confidentely go for it, so I’ve had to go back to undo things, but it also means I can be somewhat vague, point to something and get a good result. Sometimes.
@@ -186,6 +188,7 @@ So it’s good, but not great, annoying but helpful, a great teacher, sometimes,
 A tool, we all have to decide when and where to use it. 
 This is what it looks like right now: 
 <!-- insert image here -->
+[PomodorUp now](static/img/PU2.png)
 
 
 
