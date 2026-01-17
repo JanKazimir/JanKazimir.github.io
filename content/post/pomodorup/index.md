@@ -171,7 +171,7 @@ if __name__ == "__main__":
 It *worked*. 
 It was ugly, but it *worked*.
 <!-- tk: insert images here -->
-![First try: the red circle on a white square.](/static/img/PU1.png)
+![First try: the red circle on a white square.](PU1.png)
 
 
 
@@ -192,7 +192,7 @@ So it’s good, but not great, annoying but helpful, a great teacher, sometimes,
 A tool, we all have to decide when and where to use it. 
 This is what it looks like right now: 
 <!-- insert image here -->
-![PomodorUp now: the rainbow icon](/static/img/PU2.png)
+![PomodorUp now: the rainbow icon](PU2.png)
 
 
 
