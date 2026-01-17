@@ -30,8 +30,8 @@ Not really, no. I didn’t write a single function. I modified things, like the 
 But that’s not all there is to it to programming, and &lt;em&gt;that&lt;/em&gt;, is something I learned. Deployment, envrironment, library research, interacting with macOS, all those are necessary parts of a running program.
 Speedrunning through the process of writing a program is incredibly useful: I know what I’m getting into with much more clarity now.
 I can’t code better, but it made me a better &lt;em&gt;programmer&lt;/em&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;the-process&#34;&gt;The process
-&lt;/h3&gt;&lt;p&gt;I started simple with making a set detailed prompts that I was carefully  going to feed, one at time, going bit by bit.&lt;/p&gt;
+&lt;h2 id=&#34;the-process&#34;&gt;The process
+&lt;/h2&gt;&lt;p&gt;I started simple with making a set detailed prompts that I was carefully  going to feed, one at time, going bit by bit.&lt;/p&gt;
 &lt;p&gt;This was my initial prompt:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;So here is the idea; i want to create a simple mac os app : a pomodoro timer that counts UP instead of down. Amazing, groundbreaking, i know.&lt;br&gt;
@@ -40,7 +40,8 @@ So let&amp;rsquo;s start with the basic:&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;And there I mistakenly pressed &lt;code&gt;enter&lt;/code&gt; instead of &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;enter&lt;/code&gt;.
 Off it went, riproaring through the task like a toddler on red bull: you sit back, wait and hope nothing expensive breaks.&lt;/p&gt;
 &lt;p&gt;It flattered me for my genius idea, recommended and built a virtual environment, and wrote this script: &lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; time
+&lt;h3 id=&#34;code-from-the-first-prompt&#34;&gt;Code from the first prompt
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; time
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; threading
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; datetime &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; datetime, timedelta
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pystray
@@ -143,11 +144,12 @@ Off it went, riproaring through the task like a toddler on red bull: you sit bac
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    timer&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;run()
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It &lt;em&gt;worked&lt;/em&gt;.
 It was ugly, but it &lt;em&gt;worked&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;static/img/PU1.png&#34; &gt;First try&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Little by little, I began to feed it higher level prompts; my experience has been that the models are now pretty good at guessing intent, while filling in every detail takes time, and is more likely to confuse the AI. It will sometimes be wrong and confidentely go for it, so I’ve had to go back to undo things, but it also means I can be somewhat vague, point to something and get a good result. Sometimes.
 The confidence can be entertaining&amp;hellip; and grating.
 One pitfall I noticed is that when trying to do a complex task, or many small taks in one prompt, the model will miss the most important task but go way too deep on some detail.&lt;/p&gt;
-&lt;h4 id=&#34;its-gambling&#34;&gt;It’s gambling.
-&lt;/h4&gt;&lt;p&gt;I have read that analogy several times by now, and there is a lot of truth to it. Sometimes a vague direction returns working code &lt;em&gt;fast&lt;/em&gt;. There is a thrill to that, it’s a rush, it’s fun&amp;hellip;
+&lt;h2 id=&#34;its-gambling&#34;&gt;It’s gambling.
+&lt;/h2&gt;&lt;p&gt;I have read that analogy several times by now, and there is a lot of truth to it. Sometimes a vague direction returns working code &lt;em&gt;fast&lt;/em&gt;. There is a thrill to that, it’s a rush, it’s fun&amp;hellip;
 But then you can rewrite the same prompt 10 times, going back and forth around the same tasks, hoping that pulling that bandit’s arm &lt;em&gt;one more time&lt;/em&gt; will deliver the goods.
 Nope, it didn’t.
 But maybe &lt;em&gt;this&lt;/em&gt; time?&lt;/p&gt;
@@ -155,6 +157,7 @@ But maybe &lt;em&gt;this&lt;/em&gt; time?&lt;/p&gt;
 &lt;p&gt;So it’s good, but not great, annoying but helpful, a great teacher, sometimes, an annoying prick on occasion.
 A tool, we all have to decide when and where to use it.
 This is what it looks like right now:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;static/img/PU2.png&#34; &gt;PomodorUp now&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         

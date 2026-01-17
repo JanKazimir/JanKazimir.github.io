@@ -89,6 +89,14 @@ You can find some of my projects tk change link to projects page, and on my &lt;
         <guid>https://jankazimir.github.io/pages/archives/</guid>
         <description></description>
         </item>
+        <item>
+        <title>Search</title>
+        <link>https://jankazimir.github.io/pages/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://jankazimir.github.io/pages/search/</guid>
+        <description></description>
+        </item>
         
     </channel>
 </rss>

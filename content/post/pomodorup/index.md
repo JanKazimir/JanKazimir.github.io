@@ -59,6 +59,7 @@ Off it went, riproaring through the task like a toddler on red bull: you sit bac
 
 It flattered me for my genius idea, recommended and built a virtual environment, and wrote this script: <!-- tk: this section should collapse -->
 
+### Code from the first prompt
 
 ```python
 import time
@@ -165,6 +166,7 @@ if __name__ == "__main__":
 ```
 
 
+
 It *worked*. 
 It was ugly, but it *worked*.
 <!-- tk: insert images here -->
@@ -176,7 +178,7 @@ Little by little, I began to feed it higher level prompts; my experience has bee
 The confidence can be entertaining... and grating.
 One pitfall I noticed is that when trying to do a complex task, or many small taks in one prompt, the model will miss the most important task but go way too deep on some detail.
 
-#### It’s gambling. 
+## It’s gambling. 
 I have read that analogy several times by now, and there is a lot of truth to it. Sometimes a vague direction returns working code *fast*. There is a thrill to that, it’s a rush, it’s fun... 
 But then you can rewrite the same prompt 10 times, going back and forth around the same tasks, hoping that pulling that bandit’s arm *one more time* will deliver the goods. 
 Nope, it didn’t.
