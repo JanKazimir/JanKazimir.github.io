@@ -2,6 +2,7 @@
 
 The live folder, the place that is actually outputting to the web is : content > posts
 
+For the rest, just ask claude.
 
 ### Posts
 

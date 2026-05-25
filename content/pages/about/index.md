@@ -26,7 +26,7 @@ I began programming in 2025 with web development before moving towards Data Anal
 
 I am currently enrolled at [Becode](<https://becode.org/>), in the AI/Data Science course and looking for an internship (here is my [resume](<CV_EN Jan Kazimirowski 24may copy.pdf>)).
   
-*(last updated: 25/05/2)*
+*(last updated: 25/05/2026)*
 
 ### Docs  
 Here are some certificates from [Codecademy profile](https://www.codecademy.com/profiles/JanKazimirowski):
