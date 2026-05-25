@@ -2,10 +2,265 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Jkzmr</title>
-        <link>https://jankazimir.github.io/posts/</link>
+        <link>http://localhost:1313/posts/</link>
         <description>Recent content in Posts on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate></lastBuildDate><atom:link href="https://jankazimir.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 03 Dec 2025 12:36:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>PomodorUp: Adventures in Vibe Coding</title>
+        <link>http://localhost:1313/posts/pomodorup/</link>
+        <pubDate>Wed, 03 Dec 2025 12:36:49 +0100</pubDate>
+        
+        <guid>http://localhost:1313/posts/pomodorup/</guid>
+        <description>&lt;h1 id=&#34;pomodorup-adventures-in-vibe-coding&#34;&gt;PomodorUp: Adventures in Vibe Coding
+&lt;/h1&gt;&lt;p&gt;0/ Does “vibe coding” deserve PascalCase?&lt;/p&gt;
+&lt;p&gt;I made an app. I use it all the time!
+It’s called PomodorUp, because it’s a Pomodoro timer&amp;hellip; that counts Up! Groundbreaking. As hard as it is to believe, I actually &lt;em&gt;wanted&lt;/em&gt; this, to the point that I made it. I also hoped to learn from the process, and, and I &lt;em&gt;sorta&lt;/em&gt; did.
+Let me explain.&lt;/p&gt;
+&lt;p&gt;I think the best learning comes from trying to achieve a result.
+Reality forces you to solve problems every step of the way, that’s expected, but importantly, &lt;em&gt;unexpected problems&lt;/em&gt; arise.&lt;/p&gt;
+&lt;p&gt;This is why vibe coding is strange: it sits in between you and the goal, you and the problem: you’re managing an ai agent, that hopefully solves the problem. If you never look at the code and approve blindly, would you learn anything?
+As it turn out, yes, to some extent.&lt;/p&gt;
+&lt;p&gt;Building pomodorUp I have seen the code of a full program; many interacting functions summing up to a whole program. The way classes are used, and how much research into libraries is involved with doing something as simple as a timer.
+I learned what a virtual environment is, how to run a script, and (much, &lt;em&gt;much&lt;/em&gt;) later that there is a button for that in vscode (top right of the main window).
+This is what I learned from vibe coding. The useful result.
+I also have an app that i use all the time and that’s cool.&lt;/p&gt;
+&lt;p&gt;But did I learn to code better?
+Not really, no. I didn’t write a single function. I modified things, like the position of text appearing on the menu bar icon.
+But that’s not all there is to it to programming, and &lt;em&gt;that&lt;/em&gt;, is something I learned. Deployment, envrironment, library research, interacting with macOS, all those are necessary parts of a running program.
+Speedrunning through the process of writing a program is incredibly useful: I know what I’m getting into with much more clarity now.
+I can’t code better, but it made me a better &lt;em&gt;programmer&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;the-process&#34;&gt;The process
+&lt;/h2&gt;&lt;p&gt;I started simple with making a set detailed prompts that I was carefully  going to feed, one at time, going bit by bit.&lt;/p&gt;
+&lt;p&gt;This was my initial prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;So here is the idea; i want to create a simple mac os app : a pomodoro timer that counts UP instead of down. Amazing, groundbreaking, i know.&lt;br&gt;
+This is the first time i create an application of any kind. I do know some python, which is why i want the app to be done in python, but i have no idea of the libraries i might need or anything like that. i would like the app to live in the menu bar of the mac, and have a graphical interface, altough we can keep that for later if it&amp;rsquo;s easier to just do it with a terminal commands or something.&lt;br&gt;
+So let&amp;rsquo;s start with the basic:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And there I mistakenly pressed &lt;code&gt;enter&lt;/code&gt; instead of &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;enter&lt;/code&gt;.
+Off it went, riproaring through the task like a toddler on red bull: you sit back, wait and hope nothing expensive breaks.&lt;/p&gt;
+&lt;p&gt;It flattered me for my genius idea, recommended and built a virtual environment, and wrote this script: &lt;/p&gt;
+&lt;h3 id=&#34;code-from-the-first-prompt&#34;&gt;Code from the first prompt
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; threading
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; datetime &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; datetime, timedelta
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pystray
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; PIL &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Image, ImageDraw
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; sys
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PomodoroTimer&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;__init__&lt;/span&gt;(self):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;start_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_running &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;False&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;timer_thread &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;icon &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;create_icon&lt;/span&gt;(self, text&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;00:00&amp;#34;&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Create a simple icon with the timer text&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        width &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;64&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        height &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;64&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        image &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Image&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;new(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;RGB&amp;#39;&lt;/span&gt;, (width, height), color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;white&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        draw &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; ImageDraw&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Draw(image)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Draw a simple circle for the icon&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        draw&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ellipse([&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;56&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;56&lt;/span&gt;], fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;red&amp;#39;&lt;/span&gt;, outline&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;darkred&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Add timer text&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            draw&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;text((width&lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;, height&lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;), text, fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;white&amp;#39;&lt;/span&gt;, anchor&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mm&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;except&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;# Fallback if text drawing fails&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;pass&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; image
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;get_elapsed_time&lt;/span&gt;(self):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;start_time:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            elapsed &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; datetime&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;now() &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;start_time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; elapsed
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; timedelta(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;format_time&lt;/span&gt;(self, elapsed):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        total_seconds &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; int(elapsed&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;total_seconds())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        minutes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; total_seconds &lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;60&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        seconds &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; total_seconds &lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;60&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;minutes&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;02d&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;seconds&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;02d&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;update_icon&lt;/span&gt;(self):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_running:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;start_time:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                elapsed &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_elapsed_time()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                time_text &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;format_time(elapsed)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                new_icon &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;create_icon(time_text)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;icon&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;icon &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; new_icon
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            time&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sleep(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;start_timer&lt;/span&gt;(self):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_running:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;start_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; datetime&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;now()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_running &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;timer_thread &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; threading&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Thread(target&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;update_icon, daemon&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;timer_thread&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;start()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Timer started!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;stop_timer&lt;/span&gt;(self):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_running:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_running &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;False&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;start_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;icon&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;icon &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;create_icon(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;00:00&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Timer stopped!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;reset_timer&lt;/span&gt;(self):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;stop_timer()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Timer reset!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;quit_app&lt;/span&gt;(self):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;stop_timer()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;icon&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;stop()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        sys&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;exit()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;create_menu&lt;/span&gt;(self):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        menu &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pystray&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Menu(
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            pystray&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;MenuItem(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Start Timer&amp;#34;&lt;/span&gt;, self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;start_timer),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            pystray&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;MenuItem(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Stop Timer&amp;#34;&lt;/span&gt;, self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;stop_timer),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            pystray&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;MenuItem(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Reset Timer&amp;#34;&lt;/span&gt;, self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;reset_timer),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            pystray&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Menu&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;SEPARATOR,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            pystray&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;MenuItem(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Quit&amp;#34;&lt;/span&gt;, self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;quit_app)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        )
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; menu
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;run&lt;/span&gt;(self):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Create initial icon&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        initial_icon &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;create_icon(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;00:00&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Create the system tray icon&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;icon &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pystray&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Icon(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PomodorUP&amp;#34;&lt;/span&gt;, initial_icon, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PomodorUP Timer&amp;#34;&lt;/span&gt;, self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;create_menu())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Run the app&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;icon&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;run()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; __name__ &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;__main__&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    timer &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; PomodoroTimer()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    timer&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;run()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It &lt;em&gt;worked&lt;/em&gt;.
+It was ugly, but it &lt;em&gt;worked&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/pomodorup/PU1.png&#34;
+	width=&#34;239&#34;
+	height=&#34;41&#34;
+	srcset=&#34;http://localhost:1313/posts/pomodorup/PU1_hu_8d23073a1b14125.png 480w, http://localhost:1313/posts/pomodorup/PU1_hu_4230e31b828f6e01.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;First try: the red circle on a white square.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;582&#34;
+		data-flex-basis=&#34;1399px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Little by little, I began to feed it higher level prompts; my experience has been that the models are now pretty good at guessing intent, while filling in every detail takes time, and is more likely to confuse the AI. It will sometimes be wrong and confidentely go for it, so I’ve had to go back to undo things, but it also means I can be somewhat vague, point to something and get a good result. Sometimes.
+The confidence can be entertaining&amp;hellip; and grating.
+One pitfall I noticed is that when trying to do a complex task, or many small taks in one prompt, the model will miss the most important task but go way too deep on some detail.&lt;/p&gt;
+&lt;h2 id=&#34;its-gambling&#34;&gt;It’s gambling
+&lt;/h2&gt;&lt;p&gt;I have read that analogy several times by now, and there is a lot of truth to it. Sometimes a vague direction returns working code &lt;em&gt;fast&lt;/em&gt;. There is a thrill to that, it’s a rush, it’s fun&amp;hellip;
+But then you can rewrite the same prompt 10 times, going back and forth around the same tasks, hoping that pulling that bandit’s arm &lt;em&gt;one more time&lt;/em&gt; will deliver the goods.
+Nope, it didn’t.
+But maybe &lt;em&gt;this&lt;/em&gt; time?&lt;/p&gt;
+&lt;p&gt;You often win, especially small, easy tasks. But I also nearly drove myself nuts trying to make the “drift +1” function be triggered by a single left click on the icon. It was never going to work, but it wasn’t &lt;em&gt;telling me that&lt;/em&gt;. Not until I changed the model.&lt;/p&gt;
+&lt;p&gt;So it’s good, but not great, annoying but helpful, a great teacher, sometimes, an annoying prick on occasion.
+A tool, we all have to decide when and where to use it.
+This is what it looks like right now:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/pomodorup/PU2.png&#34;
+	width=&#34;229&#34;
+	height=&#34;41&#34;
+	srcset=&#34;http://localhost:1313/posts/pomodorup/PU2_hu_a47e6c4879e96f14.png 480w, http://localhost:1313/posts/pomodorup/PU2_hu_7079d569e9bed6e4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;PomodorUp now: the rainbow icon&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;558&#34;
+		data-flex-basis=&#34;1340px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>US Medical Insurance Portfolio Project</title>
+        <link>http://localhost:1313/posts/us-medical-insurance-porfolio-project/</link>
+        <pubDate>Sat, 06 Sep 2025 11:54:52 +0200</pubDate>
+        
+        <guid>http://localhost:1313/posts/us-medical-insurance-porfolio-project/</guid>
+        <description>&lt;h1 id=&#34;portfolio-project--us-insurance-data-analysis&#34;&gt;Portfolio project : US Insurance data Analysis.
+&lt;/h1&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro
+&lt;/h2&gt;&lt;p&gt;I had a blast with this project!
+It was fun to do and I learned a lot, but most importantly, I practiced by challenging myself. This project exemplifies why a platform like CodeCademy can be an exceptional way to learn.&lt;/p&gt;
+&lt;p&gt;Let me explain.
+The prject begins with a CSV of insurance data, containing 1300+ rows of these columns: [age, sex, smoker status, bmi, region, children, charges]. The ‘charges’ being the most important variable here : this the yearly cost of medical insurance for someone.&lt;/p&gt;
+&lt;p&gt;The only vague instruction comes in the introduction of the project ;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Now, &lt;strong&gt;you&lt;/strong&gt; figure it out.”  -CodeCademy, (heavily paraphrased)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That’s it. You have the file, now decide the rest.
+There is a kanban board of vague and broad ‘tasks’ to do, like “importing the necessary libraries” and “having a look at the data”.
+Not only is it vague and kinda obvious but it’s also a gimmick; a list would have been as good.
+You have a data set and a broad mandate : analyse it, which invites the question, (side-note : no, it doesn’t “beg the question”. That would be a misuse of that expression, I’ll let you get down that click-hole for yourself.) It induces the question: what would be pertinent to find out in this case? What should I try to figure out, and more interestingly, what do I &lt;em&gt;actually&lt;/em&gt; want to know?&lt;/p&gt;
+&lt;p&gt;That’s the magic: you’re not doing an exercise anymore, trying to tick one more checkbox before lunch, you’re &lt;em&gt;actually&lt;/em&gt; trying to figure something out. Oddly enough, you can only succeed: you set out the objectives yourself, so the only way to fail would be to abandon before that. Getting help is not just allowed, it’s expected.
+I guess this is similar to the thrill of the hunt, of jumping into trouble, confident you’ll get out of it somehow.
+Fun stuff.&lt;/p&gt;
+&lt;h2 id=&#34;what-i-wanted-to-know-and-what-i-found-out&#34;&gt;What I wanted to know and what I found out:
+&lt;/h2&gt;&lt;p&gt;I wanted to know the obvious things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How expensive is smoking to healthcare? (Extremely expensive : 400% more).&lt;/li&gt;
+&lt;li&gt;How expensive is A high BMI? (expensive, but that much as I expected.)&lt;/li&gt;
+&lt;li&gt;Children? (Surprising, not much at all.)&lt;/li&gt;
+&lt;li&gt;Are some regions more expensive? (Weirdly,Yes. East is worse than west, south is worse than north, so southeast is the worst.)&lt;/li&gt;
+&lt;li&gt;Age? (older is worse, as expected.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This list is of all the obvious relationships to look at, and they &lt;em&gt;are&lt;/em&gt;, but somehow they feel like &lt;em&gt;mine&lt;/em&gt; while coding, so it made me try to do things the way i would actually do things if no one was watching over my shoulder. Oddly enough, I am now sharing what I did, with some sense of pride I would not have if I had followed precise instructions.&lt;/p&gt;
+&lt;h3 id=&#34;cool-things&#34;&gt;Cool things
+&lt;/h3&gt;&lt;p&gt;I did a good job, if I may say so myself.
+I had a look at the “example solution” provided by CodeCademy and I am not impressed. It stops just as it’s getting into the interesting stuff, to begin with, but mostly, they don’t do a finer analysis than I did, and they do it &lt;em&gt;less&lt;/em&gt; elegantly.&lt;/p&gt;
+&lt;p&gt;For instance, I’m proud proud of a function I built (compare_charge_per_var) that matched any variable in the dataset to charges and returned the average charge for each value of that variable. It allows to compare the average price for men/woman, smoker/non-smoker, etc&amp;hellip;
+Pretty nifty and efficient. It even prints in a readable manner. And I built it only because I wanted to.
+I could have copied and modified some loops I had already done, but I was confident I could build the function, and it seemed like an interesting challenge that would teach me something. The broad mandate of the project encourages leaving the easy road to forge a new path into the wild.
+So I did, and discovered I’ve had the same idea as a thousand others, but you know what: I had it too. On my own!&lt;/p&gt;
+&lt;p&gt;Now, the function gets useless for variable with a lot of categories (like age and bmi) because the results are not sorted (solvable), but mostly because they are not grouped by categories, which is harder to solve. So it’s not perfect but I can imagine a helper function that would calculate the ranges of each variable in a dataset then automatically build categories for that range, name them, and feed that into the function. It’s probably too ambitious for me right now, but it’s certainly enticing.
+I might crack that nut, given enough time, but it simply wasn’t worth it when I can make bespoke categories for the two problematic variables, as I did.&lt;/p&gt;
+&lt;p&gt;Something I might actually do is instead of always comparing to charges, I could compare to any other arbitrary variable.
+Compare, say, age with kids, or smoker-status and kids (I did that one for fun : there is no correlation I can see.)&lt;/p&gt;
+&lt;p&gt;Another example of a self imposed learning moment fueled by curiosity was learning about the Counter() and  Sorted() method.
+Counter is useful to have an idea of the ranges of values in a variable. How high do ages go for instance. Of course, the result can be messy to read. So there is the Sorted() method.&lt;/p&gt;
+&lt;p&gt;Beyond learning about the methods themselves, it shows the broad scope of methods, and the abundance of libraries in python. There is python, but then all the python “plugins” .&lt;/p&gt;
+&lt;h2 id=&#34;next&#34;&gt;Next
+&lt;/h2&gt;&lt;p&gt;There we quite a few moments when I wanted to &lt;em&gt;see&lt;/em&gt; the data. Graphing variables, their relationships would be quite useful, and not just for generating “actionable insights”, just a tempory tool while exploring data.
+For instance, when looking at bmi, it would be very nice to just plot all the data points on a curve and look at the shape. I sorta did that using the Sorted() method, to order everything, but it’s still not very nice.&lt;/p&gt;
+&lt;p&gt;I looked into it obviously, and it’s done with pandas, which is the very next module in the course. Nice.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Choosing Hugo</title>
+        <link>http://localhost:1313/posts/why-hugo/</link>
+        <pubDate>Sun, 15 Jun 2025 15:45:57 +0200</pubDate>
+        
+        <guid>http://localhost:1313/posts/why-hugo/</guid>
+        <description>&lt;p&gt;When it came time to create this website, I did the &lt;em&gt;very 2025&lt;/em&gt; thing and asked gemini how to go about it.  The answer actually made sense and I began, as suggested, by brainstorming some features and drawing up a wireframe.
+I knew what I wanted: a landing page with a blog, a projects page, and a contact/about page. Simple, and I knew how to make a static page in VScode and push it to GitHub to deploy it, all from my CodeCademy &lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/pages/about/#&amp;amp;gid=1&amp;amp;pid=2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;course&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I wrote a mock up, complete with weird colours (so I could see my flex boxes), and I was up and running.&lt;/p&gt;
+&lt;p&gt;As I was linking the pages together, I began to realise that some of this was going to become a chore. The mockup was done, but far from &lt;em&gt;good&lt;/em&gt; and it would need a lot of fine tuning to get there. I wasn’t going to make &lt;em&gt;bad&lt;/em&gt; website, what would be the point?  But mostly, aside from a myriad of small flaws, the biggest problem was that my page just wasn’t a blog.
+At that point, creating a new post meant creating a new page, editing the html manually, linking from the homepage by editing the html manually, and linking from the blog page, by… You see where this is going.
+I could probably use a markdown to html converter, maybe have a template ready for some copy pasting, but it still seemed like a chore. There had to be a better way…&lt;/p&gt;
+&lt;p&gt;I figured I had two options : fine tune the design of the mockup, while I learned to implement the features I wanted, or use a template and a static site generator.
+[] &amp;gt; Links to static site generator
+[] &amp;gt; Link to stack template&lt;/p&gt;
+&lt;p&gt;I chose the latter.&lt;br&gt;
+Ultimately I will most likely end up learning both things, but using a template gets me results &lt;em&gt;now&lt;/em&gt;.
+Getting results is nice, getting results &lt;strong&gt;now&lt;/strong&gt; is better.&lt;/p&gt;
+</description>
+        </item>
+        
     </channel>
 </rss>

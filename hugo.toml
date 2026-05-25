@@ -5,3 +5,30 @@ theme = "hugo-theme-stack-3.30.0"
 # theme = "Dark-Arts"
 publishDir = "docs"
 
+[params]
+mainSections = ["posts"]
+
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/JanKazimir"
+weight = 1
+[menu.social.params]
+icon = "brand-github"
+
+[[menu.social]]
+identifier = "LinkedIn"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/jan-kazimirowski-984625b/"
+weight = 3
+[menu.social.params]
+icon = "brand-linkedin"
+
+[[menu.social]]
+identifier = "bluesky"
+name = "Bluesky"
+url = "https://bsky.app/profile/jkzmr.bsky.social"
+weight = 7
+[menu.social.params]
+icon = "brand-bluesky"
+

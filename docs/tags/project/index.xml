@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Project on Jkzmr</title>
-        <link>https://jankazimir.github.io/tags/project/</link>
+        <link>http://localhost:1313/tags/project/</link>
         <description>Recent content in Project on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 03 Dec 2025 12:36:49 +0100</lastBuildDate><atom:link href="https://jankazimir.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 03 Dec 2025 12:36:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>PomodorUp: Adventures in Vibe Coding</title>
-        <link>https://jankazimir.github.io/post/pomodorup/</link>
+        <link>http://localhost:1313/posts/pomodorup/</link>
         <pubDate>Wed, 03 Dec 2025 12:36:49 +0100</pubDate>
         
-        <guid>https://jankazimir.github.io/post/pomodorup/</guid>
+        <guid>http://localhost:1313/posts/pomodorup/</guid>
         <description>&lt;h1 id=&#34;pomodorup-adventures-in-vibe-coding&#34;&gt;PomodorUp: Adventures in Vibe Coding
 &lt;/h1&gt;&lt;p&gt;0/ Does “vibe coding” deserve PascalCase?&lt;/p&gt;
 &lt;p&gt;I made an app. I use it all the time!
@@ -36,12 +36,13 @@ I can’t code better, but it made me a better &lt;em&gt;programmer&lt;/em&gt;.&
 &lt;blockquote&gt;
 &lt;p&gt;So here is the idea; i want to create a simple mac os app : a pomodoro timer that counts UP instead of down. Amazing, groundbreaking, i know.&lt;br&gt;
 This is the first time i create an application of any kind. I do know some python, which is why i want the app to be done in python, but i have no idea of the libraries i might need or anything like that. i would like the app to live in the menu bar of the mac, and have a graphical interface, altough we can keep that for later if it&amp;rsquo;s easier to just do it with a terminal commands or something.&lt;br&gt;
-So let&amp;rsquo;s start with the basic:&lt;/p&gt;&lt;/blockquote&gt;
+So let&amp;rsquo;s start with the basic:&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;And there I mistakenly pressed &lt;code&gt;enter&lt;/code&gt; instead of &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;enter&lt;/code&gt;.
 Off it went, riproaring through the task like a toddler on red bull: you sit back, wait and hope nothing expensive breaks.&lt;/p&gt;
 &lt;p&gt;It flattered me for my genius idea, recommended and built a virtual environment, and wrote this script: &lt;/p&gt;
 &lt;h3 id=&#34;code-from-the-first-prompt&#34;&gt;Code from the first prompt
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; time
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; time
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; threading
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; datetime &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; datetime, timedelta
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pystray
@@ -144,10 +145,10 @@ Off it went, riproaring through the task like a toddler on red bull: you sit bac
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    timer&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;run()
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It &lt;em&gt;worked&lt;/em&gt;.
 It was ugly, but it &lt;em&gt;worked&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://jankazimir.github.io/post/pomodorup/PU1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/pomodorup/PU1.png&#34;
 	width=&#34;239&#34;
 	height=&#34;41&#34;
-	srcset=&#34;https://jankazimir.github.io/post/pomodorup/PU1_hu_d4fa07a3da0eb07.png 480w, https://jankazimir.github.io/post/pomodorup/PU1_hu_40cf1332c00f5ec5.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/posts/pomodorup/PU1_hu_8d23073a1b14125.png 480w, http://localhost:1313/posts/pomodorup/PU1_hu_4230e31b828f6e01.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;First try: the red circle on a white square.&#34;
@@ -170,10 +171,10 @@ But maybe &lt;em&gt;this&lt;/em&gt; time?&lt;/p&gt;
 &lt;p&gt;So it’s good, but not great, annoying but helpful, a great teacher, sometimes, an annoying prick on occasion.
 A tool, we all have to decide when and where to use it.
 This is what it looks like right now:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://jankazimir.github.io/post/pomodorup/PU2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/pomodorup/PU2.png&#34;
 	width=&#34;229&#34;
 	height=&#34;41&#34;
-	srcset=&#34;https://jankazimir.github.io/post/pomodorup/PU2_hu_c70d4193e58e5b61.png 480w, https://jankazimir.github.io/post/pomodorup/PU2_hu_81c74d74be420252.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/posts/pomodorup/PU2_hu_a47e6c4879e96f14.png 480w, http://localhost:1313/posts/pomodorup/PU2_hu_7079d569e9bed6e4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;PomodorUp now: the rainbow icon&#34;
@@ -188,10 +189,10 @@ This is what it looks like right now:&lt;/p&gt;
         </item>
         <item>
         <title>US Medical Insurance Portfolio Project</title>
-        <link>https://jankazimir.github.io/post/us-medical-insurance-porfolio-project/</link>
+        <link>http://localhost:1313/posts/us-medical-insurance-porfolio-project/</link>
         <pubDate>Sat, 06 Sep 2025 11:54:52 +0200</pubDate>
         
-        <guid>https://jankazimir.github.io/post/us-medical-insurance-porfolio-project/</guid>
+        <guid>http://localhost:1313/posts/us-medical-insurance-porfolio-project/</guid>
         <description>&lt;h1 id=&#34;portfolio-project--us-insurance-data-analysis&#34;&gt;Portfolio project : US Insurance data Analysis.
 &lt;/h1&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro
 &lt;/h2&gt;&lt;p&gt;I had a blast with this project!
@@ -200,7 +201,8 @@ It was fun to do and I learned a lot, but most importantly, I practiced by chall
 The prject begins with a CSV of insurance data, containing 1300+ rows of these columns: [age, sex, smoker status, bmi, region, children, charges]. The ‘charges’ being the most important variable here : this the yearly cost of medical insurance for someone.&lt;/p&gt;
 &lt;p&gt;The only vague instruction comes in the introduction of the project ;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“Now, &lt;strong&gt;you&lt;/strong&gt; figure it out.”  -CodeCademy, (heavily paraphrased)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;“Now, &lt;strong&gt;you&lt;/strong&gt; figure it out.”  -CodeCademy, (heavily paraphrased)&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;That’s it. You have the file, now decide the rest.
 There is a kanban board of vague and broad ‘tasks’ to do, like “importing the necessary libraries” and “having a look at the data”.
 Not only is it vague and kinda obvious but it’s also a gimmick; a list would have been as good.

@@ -22,6 +22,7 @@ Just dump the images in there, with index.md. It's because the theme uses bundle
 In the post link directly to it:
 ![first image](image1.png)
 
+more info:
 https://stack.jimmycai.com/writing/markdown
 
 
