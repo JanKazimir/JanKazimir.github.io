@@ -1,8 +1,7 @@
 # My remarks
 
-The live folder, the place that is actually outputting to the web is : content > post (I think)
+The live folder, the place that is actually outputting to the web is : content > posts
 
-This thing is slightly a pain to be honest. 
 
 ### Posts
 
@@ -24,6 +23,9 @@ In the post link directly to it:
 
 more info:
 https://stack.jimmycai.com/writing/markdown
+
+
+
 
 
 #### Changing fonts

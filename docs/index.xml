@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Jkzmr</title>
-        <link>http://localhost:1313/</link>
+        <link>https://jankazimir.github.io/</link>
         <description>Recent content on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 03 Dec 2025 12:36:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 03 Dec 2025 12:36:49 +0100</lastBuildDate><atom:link href="https://jankazimir.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>PomodorUp: Adventures in Vibe Coding</title>
-        <link>http://localhost:1313/posts/pomodorup/</link>
+        <link>https://jankazimir.github.io/posts/pomodorup/</link>
         <pubDate>Wed, 03 Dec 2025 12:36:49 +0100</pubDate>
         
-        <guid>http://localhost:1313/posts/pomodorup/</guid>
+        <guid>https://jankazimir.github.io/posts/pomodorup/</guid>
         <description>&lt;h1 id=&#34;pomodorup-adventures-in-vibe-coding&#34;&gt;PomodorUp: Adventures in Vibe Coding
 &lt;/h1&gt;&lt;p&gt;0/ Does “vibe coding” deserve PascalCase?&lt;/p&gt;
 &lt;p&gt;I made an app. I use it all the time!
@@ -145,10 +145,10 @@ Off it went, riproaring through the task like a toddler on red bull: you sit bac
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    timer&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;run()
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It &lt;em&gt;worked&lt;/em&gt;.
 It was ugly, but it &lt;em&gt;worked&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/pomodorup/PU1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://jankazimir.github.io/posts/pomodorup/PU1.png&#34;
 	width=&#34;239&#34;
 	height=&#34;41&#34;
-	srcset=&#34;http://localhost:1313/posts/pomodorup/PU1_hu_8d23073a1b14125.png 480w, http://localhost:1313/posts/pomodorup/PU1_hu_4230e31b828f6e01.png 1024w&#34;
+	srcset=&#34;https://jankazimir.github.io/posts/pomodorup/PU1_hu_8d23073a1b14125.png 480w, https://jankazimir.github.io/posts/pomodorup/PU1_hu_4230e31b828f6e01.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;First try: the red circle on a white square.&#34;
@@ -171,10 +171,10 @@ But maybe &lt;em&gt;this&lt;/em&gt; time?&lt;/p&gt;
 &lt;p&gt;So it’s good, but not great, annoying but helpful, a great teacher, sometimes, an annoying prick on occasion.
 A tool, we all have to decide when and where to use it.
 This is what it looks like right now:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/pomodorup/PU2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://jankazimir.github.io/posts/pomodorup/PU2.png&#34;
 	width=&#34;229&#34;
 	height=&#34;41&#34;
-	srcset=&#34;http://localhost:1313/posts/pomodorup/PU2_hu_a47e6c4879e96f14.png 480w, http://localhost:1313/posts/pomodorup/PU2_hu_7079d569e9bed6e4.png 1024w&#34;
+	srcset=&#34;https://jankazimir.github.io/posts/pomodorup/PU2_hu_a47e6c4879e96f14.png 480w, https://jankazimir.github.io/posts/pomodorup/PU2_hu_7079d569e9bed6e4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;PomodorUp now: the rainbow icon&#34;
@@ -189,10 +189,10 @@ This is what it looks like right now:&lt;/p&gt;
         </item>
         <item>
         <title>US Medical Insurance Portfolio Project</title>
-        <link>http://localhost:1313/posts/us-medical-insurance-porfolio-project/</link>
+        <link>https://jankazimir.github.io/posts/us-medical-insurance-porfolio-project/</link>
         <pubDate>Sat, 06 Sep 2025 11:54:52 +0200</pubDate>
         
-        <guid>http://localhost:1313/posts/us-medical-insurance-porfolio-project/</guid>
+        <guid>https://jankazimir.github.io/posts/us-medical-insurance-porfolio-project/</guid>
         <description>&lt;h1 id=&#34;portfolio-project--us-insurance-data-analysis&#34;&gt;Portfolio project : US Insurance data Analysis.
 &lt;/h1&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro
 &lt;/h2&gt;&lt;p&gt;I had a blast with this project!
@@ -242,10 +242,10 @@ For instance, when looking at bmi, it would be very nice to just plot all the da
         </item>
         <item>
         <title>Choosing Hugo</title>
-        <link>http://localhost:1313/posts/why-hugo/</link>
+        <link>https://jankazimir.github.io/posts/why-hugo/</link>
         <pubDate>Sun, 15 Jun 2025 15:45:57 +0200</pubDate>
         
-        <guid>http://localhost:1313/posts/why-hugo/</guid>
+        <guid>https://jankazimir.github.io/posts/why-hugo/</guid>
         <description>&lt;p&gt;When it came time to create this website, I did the &lt;em&gt;very 2025&lt;/em&gt; thing and asked gemini how to go about it.  The answer actually made sense and I began, as suggested, by brainstorming some features and drawing up a wireframe.
 I knew what I wanted: a landing page with a blog, a projects page, and a contact/about page. Simple, and I knew how to make a static page in VScode and push it to GitHub to deploy it, all from my CodeCademy &lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/pages/about/#&amp;amp;gid=1&amp;amp;pid=2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;course&lt;/a&gt;.&lt;/p&gt;
@@ -263,25 +263,55 @@ Getting results is nice, getting results &lt;strong&gt;now&lt;/strong&gt; is bet
         </item>
         <item>
         <title>About</title>
-        <link>http://localhost:1313/pages/about/</link>
+        <link>https://jankazimir.github.io/pages/about/</link>
         <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/pages/about/</guid>
+        <guid>https://jankazimir.github.io/pages/about/</guid>
         <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome!
 &lt;/h2&gt;&lt;p&gt;On this site you will find &lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/pages/archives/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;posts&lt;/a&gt;, about projects I&amp;rsquo;ve build, their development and  topics related to programming.&lt;/p&gt;
+    &gt;posts&lt;/a&gt; about projects I&amp;rsquo;ve build, my journey building them and topics related to programming and .&lt;/p&gt;
 &lt;p&gt;Expect no expertise, only a stubborn penchant for learning and a thirst for improvement.
 Enjoy.&lt;/p&gt;
 &lt;h3 id=&#34;about-me&#34;&gt;About Me
-&lt;/h3&gt;&lt;p&gt;I began programming in 2025 with web development.
-You can find some of my projects tk change link to projects page, and on my &lt;a class=&#34;link&#34; href=&#34;https://github.com/JanKazimir&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;GitHub&lt;/a&gt; profile.&lt;/p&gt;
-&lt;p&gt;Here are some web-oriented certificates on my &lt;a class=&#34;link&#34; href=&#34;https://www.codecademy.com/profiles/JanKazimirowski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;/h3&gt;&lt;p&gt;I began programming in 2025 with web development before moving towards Data Analysis and Machine Learning. You can find some of my projects on &lt;a class=&#34;link&#34; href=&#34;https://github.com/JanKazimir&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am currently enrolled at &lt;a class=&#34;link&#34; href=&#34;https://becode.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Becode&lt;/a&gt;, in the AI/Data Science course and looking for an internship (here is my &lt;a class=&#34;link&#34; href=&#34;CV_EN%20Jan%20Kazimirowski%2024may%20copy.pdf&#34; &gt;resume&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(last updated: 25/05/2)&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;docs&#34;&gt;Docs
+&lt;/h3&gt;&lt;p&gt;Here are some certificates from &lt;a class=&#34;link&#34; href=&#34;https://www.codecademy.com/profiles/JanKazimirowski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Codecademy profile&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.41.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://jankazimir.github.io/pages/about/Screenshot%202026-05-25%20at%2023.30.52.png&#34;
+	width=&#34;612&#34;
+	height=&#34;487&#34;
+	srcset=&#34;https://jankazimir.github.io/pages/about/Screenshot%202026-05-25%20at%2023.30.52_hu_634e24baa08a42f6.png 480w, https://jankazimir.github.io/pages/about/Screenshot%202026-05-25%20at%2023.30.52_hu_74e1adc64f9f5a09.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Python&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;301px&#34;
+	
+&gt; &lt;img src=&#34;https://jankazimir.github.io/pages/about/Screenshot%202026-05-25%20at%2023.31.01.png&#34;
+	width=&#34;612&#34;
+	height=&#34;487&#34;
+	srcset=&#34;https://jankazimir.github.io/pages/about/Screenshot%202026-05-25%20at%2023.31.01_hu_5f4cbb98f956df6e.png 480w, https://jankazimir.github.io/pages/about/Screenshot%202026-05-25%20at%2023.31.01_hu_43bf802bcc6e8bca.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;SQL&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;301px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.41.png&#34;
 	width=&#34;727&#34;
 	height=&#34;576&#34;
-	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.41_hu_38959d0ba0edca1d.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.41_hu_53a599805ab408e2.png 1024w&#34;
+	srcset=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.41_hu_38959d0ba0edca1d.png 480w, https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.41_hu_53a599805ab408e2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Javascript&#34;
@@ -291,10 +321,11 @@ You can find some of my projects tk change link to projects page, and on my &lt;
 		data-flex-grow=&#34;126&#34;
 		data-flex-basis=&#34;302px&#34;
 	
-&gt; &lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.30.png&#34;
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.30.png&#34;
 	width=&#34;727&#34;
 	height=&#34;576&#34;
-	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.30_hu_f2973324c97d6edb.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.30_hu_7cdc45d2c2ac17bd.png 1024w&#34;
+	srcset=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.30_hu_f2973324c97d6edb.png 480w, https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.30_hu_7cdc45d2c2ac17bd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Build a Website&#34;
@@ -304,10 +335,10 @@ You can find some of my projects tk change link to projects page, and on my &lt;
 		data-flex-grow=&#34;126&#34;
 		data-flex-basis=&#34;302px&#34;
 	
-&gt; &lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.22.png&#34;
+&gt; &lt;img src=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.22.png&#34;
 	width=&#34;727&#34;
 	height=&#34;576&#34;
-	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.22_hu_1fc5229edb9dfd63.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.22_hu_733c597252a86c44.png 1024w&#34;
+	srcset=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.22_hu_1fc5229edb9dfd63.png 480w, https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.22_hu_733c597252a86c44.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Semantic Html&#34;
@@ -317,10 +348,10 @@ You can find some of my projects tk change link to projects page, and on my &lt;
 		data-flex-grow=&#34;126&#34;
 		data-flex-basis=&#34;302px&#34;
 	
-&gt; &lt;img src=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.09.png&#34;
+&gt; &lt;img src=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.09.png&#34;
 	width=&#34;727&#34;
 	height=&#34;576&#34;
-	srcset=&#34;http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.09_hu_cff32ced7d4a0bdb.png 480w, http://localhost:1313/pages/about/Screenshot%202025-06-12%20at%2016.30.09_hu_9c196e5d1c469eb9.png 1024w&#34;
+	srcset=&#34;https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.09_hu_cff32ced7d4a0bdb.png 480w, https://jankazimir.github.io/pages/about/Screenshot%202025-06-12%20at%2016.30.09_hu_9c196e5d1c469eb9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Html&#34;
@@ -331,17 +362,16 @@ You can find some of my projects tk change link to projects page, and on my &lt;
 		data-flex-basis=&#34;302px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;I am currently learning some Data Science, Deep learning models, and AI in general.&lt;/p&gt;
-&lt;p&gt;My resume is here : link to pdf of resume&lt;/p&gt;
-&lt;p&gt;This website is built with Hugo, which I&amp;rsquo;ve written about here tk link to blog post&lt;/p&gt;
+&lt;p&gt;This website is built with Hugo, which I&amp;rsquo;ve written about &lt;a class=&#34;link&#34; href=&#34;https://jankazimir.github.io/posts/why-hugo/&#34; &gt;here&lt;/a&gt;, and using the &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;stack&lt;/a&gt; theme.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Blog</title>
-        <link>http://localhost:1313/pages/archives/</link>
+        <link>https://jankazimir.github.io/pages/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/pages/archives/</guid>
+        <guid>https://jankazimir.github.io/pages/archives/</guid>
         <description></description>
         </item>
         

@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Jkzmr</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>https://jankazimir.github.io/categories/</link>
         <description>Recent content in Categories on Jkzmr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 03 Dec 2025 12:36:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 03 Dec 2025 12:36:49 +0100</lastBuildDate><atom:link href="https://jankazimir.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Programming</title>
-        <link>http://localhost:1313/categories/programming/</link>
+        <link>https://jankazimir.github.io/categories/programming/</link>
         <pubDate>Wed, 03 Dec 2025 12:36:49 +0100</pubDate>
         
-        <guid>http://localhost:1313/categories/programming/</guid>
+        <guid>https://jankazimir.github.io/categories/programming/</guid>
         <description></description>
         </item>
         <item>
         <title>Project Showcase</title>
-        <link>http://localhost:1313/categories/project-showcase/</link>
+        <link>https://jankazimir.github.io/categories/project-showcase/</link>
         <pubDate>Wed, 03 Dec 2025 12:36:49 +0100</pubDate>
         
-        <guid>http://localhost:1313/categories/project-showcase/</guid>
+        <guid>https://jankazimir.github.io/categories/project-showcase/</guid>
         <description></description>
         </item>
         <item>
         <title>Data Science</title>
-        <link>http://localhost:1313/categories/data-science/</link>
+        <link>https://jankazimir.github.io/categories/data-science/</link>
         <pubDate>Sat, 06 Sep 2025 11:54:52 +0200</pubDate>
         
-        <guid>http://localhost:1313/categories/data-science/</guid>
+        <guid>https://jankazimir.github.io/categories/data-science/</guid>
         <description></description>
         </item>
         <item>
         <title>Jkzmr</title>
-        <link>http://localhost:1313/categories/jkzmr/</link>
+        <link>https://jankazimir.github.io/categories/jkzmr/</link>
         <pubDate>Sun, 15 Jun 2025 15:45:57 +0200</pubDate>
         
-        <guid>http://localhost:1313/categories/jkzmr/</guid>
+        <guid>https://jankazimir.github.io/categories/jkzmr/</guid>
         <description></description>
         </item>
         <item>
         <title>Web</title>
-        <link>http://localhost:1313/categories/web/</link>
+        <link>https://jankazimir.github.io/categories/web/</link>
         <pubDate>Sun, 15 Jun 2025 15:45:57 +0200</pubDate>
         
-        <guid>http://localhost:1313/categories/web/</guid>
+        <guid>https://jankazimir.github.io/categories/web/</guid>
         <description></description>
         </item>
         

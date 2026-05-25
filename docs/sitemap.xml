@@ -2,73 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://jankazimir.github.io/categories/</loc>
     <lastmod>2025-12-03T12:36:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://jankazimir.github.io/</loc>
     <lastmod>2025-12-03T12:36:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/pomodorup/</loc>
+    <loc>https://jankazimir.github.io/posts/pomodorup/</loc>
     <lastmod>2025-12-03T12:36:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://jankazimir.github.io/posts/</loc>
     <lastmod>2025-12-03T12:36:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/programming/</loc>
+    <loc>https://jankazimir.github.io/categories/programming/</loc>
     <lastmod>2025-12-03T12:36:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
+    <loc>https://jankazimir.github.io/tags/programming/</loc>
     <lastmod>2025-12-03T12:36:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/project/</loc>
+    <loc>https://jankazimir.github.io/tags/project/</loc>
     <lastmod>2025-12-03T12:36:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/project-showcase/</loc>
+    <loc>https://jankazimir.github.io/categories/project-showcase/</loc>
     <lastmod>2025-12-03T12:36:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://jankazimir.github.io/tags/python/</loc>
     <lastmod>2025-12-03T12:36:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://jankazimir.github.io/tags/</loc>
     <lastmod>2025-12-03T12:36:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/analysis/</loc>
+    <loc>https://jankazimir.github.io/tags/analysis/</loc>
     <lastmod>2025-09-06T11:54:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/data-science/</loc>
+    <loc>https://jankazimir.github.io/categories/data-science/</loc>
     <lastmod>2025-09-06T11:54:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/us-medical-insurance-porfolio-project/</loc>
+    <loc>https://jankazimir.github.io/posts/us-medical-insurance-porfolio-project/</loc>
     <lastmod>2025-09-06T11:54:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/why-hugo/</loc>
+    <loc>https://jankazimir.github.io/posts/why-hugo/</loc>
     <lastmod>2025-06-15T15:45:57+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
+    <loc>https://jankazimir.github.io/tags/css/</loc>
     <lastmod>2025-06-15T15:45:57+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
+    <loc>https://jankazimir.github.io/tags/html/</loc>
     <lastmod>2025-06-15T15:45:57+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://jankazimir.github.io/tags/hugo/</loc>
     <lastmod>2025-06-15T15:45:57+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/jkzmr/</loc>
+    <loc>https://jankazimir.github.io/categories/jkzmr/</loc>
     <lastmod>2025-06-15T15:45:57+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
+    <loc>https://jankazimir.github.io/tags/themes/</loc>
     <lastmod>2025-06-15T15:45:57+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/web/</loc>
+    <loc>https://jankazimir.github.io/categories/web/</loc>
     <lastmod>2025-06-15T15:45:57+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pages/about/</loc>
+    <loc>https://jankazimir.github.io/pages/about/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pages/</loc>
+    <loc>https://jankazimir.github.io/pages/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pages/archives/</loc>
+    <loc>https://jankazimir.github.io/pages/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
 </urlset>
